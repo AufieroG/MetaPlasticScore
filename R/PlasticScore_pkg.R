@@ -1,10 +1,10 @@
 #' plasticScorePipeline.R
 #'
-#' Pipeline for computing a "plastic degradation potential"
+#' Pipeline for computing a "plastic degradation potential Score"
 #' score from HMMER (hmmsearch) outputs and taxon abundance tables.
 #'
 #' The file contains parsers for HMMER output, matrix builders, scoring logic,
-#' statistical tests and plotting helpers (ggplot2 + ComplexHeatmap).
+#' statistical tests and plotting (ggplot2 + ComplexHeatmap).
 #'
 #'
 #' @import stats
@@ -26,3 +26,4 @@
 #' Maintainer: Gaetano Aufiero
 #' @name PlasticScore
 NULL
+

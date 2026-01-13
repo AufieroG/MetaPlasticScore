@@ -270,13 +270,13 @@ plot_PlasticScore(
 )
 ```
 
-<img width="1200" height="750" alt="stacked_bar" src="https://github.com/user-attachments/assets/50255315-dbc9-4121-845c-d1e06cc6f98e" />
-<img width="1200" height="750" alt="plastic_score" src="https://github.com/user-attachments/assets/64ac8df9-dfa0-41bd-8718-645d096fc4b8" />
-<img width="1200" height="750" alt="pcoa" src="https://github.com/user-attachments/assets/65216ea1-56df-47b8-ba54-c38274aa1c20" />
-<img width="1200" height="750" alt="heatmap" src="https://github.com/user-attachments/assets/51806b64-dd1e-479a-b103-3ac1b54a2501" />
-<img width="1200" height="750" alt="contributions" src="https://github.com/user-attachments/assets/4e480b16-9931-4926-b4e5-b074ec663baa" />
-<img width="1200" height="750" alt="bubble" src="https://github.com/user-attachments/assets/f8d89cfb-bd9f-46a8-bc5e-be87f572ef8a" />
-<img width="1200" height="750" alt="abundance_violin" src="https://github.com/user-attachments/assets/868396a4-dcb7-445f-bf5c-788d0ccf6cd8" />
+<img width="600" height="375" alt="stacked_bar" src="https://github.com/user-attachments/assets/50255315-dbc9-4121-845c-d1e06cc6f98e" />
+<img width="600" height="375" alt="plastic_score" src="https://github.com/user-attachments/assets/64ac8df9-dfa0-41bd-8718-645d096fc4b8" />
+<img width="600" height="375" alt="pcoa" src="https://github.com/user-attachments/assets/65216ea1-56df-47b8-ba54-c38274aa1c20" />
+<img width="600" height="375" alt="heatmap" src="https://github.com/user-attachments/assets/51806b64-dd1e-479a-b103-3ac1b54a2501" />
+<img width="600" height="375" alt="contributions" src="https://github.com/user-attachments/assets/4e480b16-9931-4926-b4e5-b074ec663baa" />
+<img width="600" height="375" alt="bubble" src="https://github.com/user-attachments/assets/f8d89cfb-bd9f-46a8-bc5e-be87f572ef8a" />
+<img width="600" height="375" alt="abundance_violin" src="https://github.com/user-attachments/assets/868396a4-dcb7-445f-bf5c-788d0ccf6cd8" />
 
 
 

@@ -75,7 +75,7 @@ These HMM profiles were built from protein sequences identified using:
 
 and are based on the experimental framework and annotations described in:
 
-> *De Filippis, F., Bonelli, M., Bruno, D. et al. Plastics shape the black soldier fly larvae gut microbiome and select for biodegrading functions. Microbiome 11, 205 (2023).*  
+> *De Filippis, F., Bonelli, M., Bruno, D. et al. Plastics shape the black soldier fly larvae gut microbiome and select for biodegrading functions. Microbiome 11, 205 (2023).*
 > [https://doi.org/10.1186/s40168-023-01649-0](https://doi.org/10.1186/s40168-023-01649-0)
 
 Users may use these HMM models directly or replace them with custom HMM profiles if desired.

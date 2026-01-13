@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_045510286.1       -            299 dyp_type_peroxidase  -            467   2.1e-88  295.3   1.4   1   1     1e-91   2.3e-88  295.2   1.4   100   380     1   296     1   299 0.90 MULTISPECIES: Dyp-type peroxidase [Kosakonia]
+WP_020457324.1       -            427 dyp_type_peroxidase  -            467   1.6e-69  233.0   0.3   1   1   8.1e-73   1.9e-69  232.8   0.3    98   379    53   415     2   427 0.73 MULTISPECIES: iron uptake transporter deferrochelatase/peroxidase subunit [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/dyp_type_peroxidase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Kosakonia_sacchari.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Kosakonia_sacchari__dyp_type_peroxidase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Kosakonia_sacchari__dyp_type_peroxidase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/dyp_type_peroxidase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Kosakonia_sacchari.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:10 2026
+# [ok]

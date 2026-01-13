@@ -1,0 +1,22 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_076689789.1       -            440 flavin-dependent_oxidoreductase -            474   7.3e-81  269.6   0.0   1   1   1.4e-83   8.6e-81  269.4   0.0    16   437     9   437     1   439 0.84 LLM class flavin-dependent oxidoreductase [Microbacterium aurum]
+WP_076691708.1       -            356 flavin-dependent_oxidoreductase -            474     7e-10   35.6   0.3   1   2   3.1e-12     2e-09   34.1   0.1    39   170    18   137    10   140 0.84 putative FMN-dependent luciferase-like monooxygenase [Microbacterium aurum]
+WP_076691708.1       -            356 flavin-dependent_oxidoreductase -            474     7e-10   35.6   0.3   2   2      0.17   1.1e+02   -1.4   0.0   306   365   245   304   224   329 0.58 putative FMN-dependent luciferase-like monooxygenase [Microbacterium aurum]
+WP_076690895.1       -            344 flavin-dependent_oxidoreductase -            474   3.5e-08   30.0   0.3   1   2   2.5e-09   1.6e-06   24.5   0.2    58   132    33   108    26   109 0.80 LLM class flavin-dependent oxidoreductase [Microbacterium aurum]
+WP_076690895.1       -            344 flavin-dependent_oxidoreductase -            474   3.5e-08   30.0   0.3   2   2    0.0058       3.7    3.5   0.0   366   400   279   312   242   322 0.85 LLM class flavin-dependent oxidoreductase [Microbacterium aurum]
+WP_076689777.1       -            341 flavin-dependent_oxidoreductase -            474   2.2e-07   27.3   0.0   1   2   6.9e-10   4.4e-07   26.3   0.0    82   138    54   111    29   145 0.75 LLM class flavin-dependent oxidoreductase [Microbacterium aurum]
+WP_076689777.1       -            341 flavin-dependent_oxidoreductase -            474   2.2e-07   27.3   0.0   2   2       0.8   5.1e+02   -3.6   0.0   130   146   196   212   195   228 0.83 LLM class flavin-dependent oxidoreductase [Microbacterium aurum]
+WP_076692233.1       -            401 flavin-dependent_oxidoreductase -            474   1.3e-06   24.8   0.2   1   2   8.1e-09   5.1e-06   22.8   0.2    39   132    23   106     2   107 0.77 LLM class flavin-dependent oxidoreductase [Microbacterium aurum]
+WP_076692233.1       -            401 flavin-dependent_oxidoreductase -            474   1.3e-06   24.8   0.2   2   2      0.17   1.1e+02   -1.3   0.0   370   390   275   298   267   334 0.57 LLM class flavin-dependent oxidoreductase [Microbacterium aurum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/flavin-dependent_oxidoreductase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Microbacterium_aurum.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Microbacterium_aurum__flavin-dependent_oxidoreductase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Microbacterium_aurum__flavin-dependent_oxidoreductase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/flavin-dependent_oxidoreductase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Microbacterium_aurum.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:13 2026
+# [ok]

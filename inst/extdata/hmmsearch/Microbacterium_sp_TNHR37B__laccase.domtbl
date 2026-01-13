@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_082829208.1       -            509 laccase              -            716   8.6e-45  150.8   7.4   1   3   6.5e-40     1e-36  124.1   0.1   115   344    91   330    88   345 0.80 multicopper oxidase family protein [Microbacterium sp. TNHR37B]
+WP_082829208.1       -            509 laccase              -            716   8.6e-45  150.8   7.4   2   3     0.011        17    1.1   1.8   539   551   444   456   438   459 0.83 multicopper oxidase family protein [Microbacterium sp. TNHR37B]
+WP_082829208.1       -            509 laccase              -            716   8.6e-45  150.8   7.4   3   3     2e-10   3.2e-07   26.6   0.0   584   627   462   505   456   507 0.89 multicopper oxidase family protein [Microbacterium sp. TNHR37B]
+WP_067165101.1       -            637 laccase              -            716   1.3e-32  110.5   3.9   1   2   7.4e-33   1.2e-29  100.7   0.6   109   338   384   595   376   595 0.80 DUF4396 domain-containing protein [Microbacterium sp. TNHR37B]
+WP_067165101.1       -            637 laccase              -            716   1.3e-32  110.5   3.9   2   2     8e-06     0.013   11.4   1.2   536   620   551   617   531   635 0.75 DUF4396 domain-containing protein [Microbacterium sp. TNHR37B]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/laccase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Microbacterium_sp_TNHR37B.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Microbacterium_sp_TNHR37B__laccase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Microbacterium_sp_TNHR37B__laccase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/laccase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Microbacterium_sp_TNHR37B.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:18 2026
+# [ok]

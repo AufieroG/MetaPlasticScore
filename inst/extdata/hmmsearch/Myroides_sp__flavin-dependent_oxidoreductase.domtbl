@@ -1,0 +1,16 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_006260166.1       -            321 flavin-dependent_oxidoreductase -            474   3.1e-08   30.3   0.0   1   1   2.9e-11   5.1e-08   29.5   0.0    43   132    38   123    25   141 0.83 MULTISPECIES: LLM class oxidoreductase [Myroides]
+WP_006258963.1       -            344 flavin-dependent_oxidoreductase -            474   8.6e-06   22.2   0.0   1   2     2e-07   0.00034   16.9   0.0    82   132    56   106    15   110 0.79 LLM class flavin-dependent oxidoreductase [Myroides odoratimimus]
+WP_006258963.1       -            344 flavin-dependent_oxidoreductase -            474   8.6e-06   22.2   0.0   2   2    0.0038       6.6    2.8   0.0   211   289   162   242   149   273 0.80 LLM class flavin-dependent oxidoreductase [Myroides odoratimimus]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/flavin-dependent_oxidoreductase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Myroides_sp.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Myroides_sp__flavin-dependent_oxidoreductase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Myroides_sp__flavin-dependent_oxidoreductase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/flavin-dependent_oxidoreductase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Myroides_sp.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:20 2026
+# [ok]

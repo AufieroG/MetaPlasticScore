@@ -1,0 +1,15 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_043545536.1       -            428 FMN_dependent_monooxygenase -            552  1.1e-171  570.6   2.5   1   1    1e-174  1.2e-171  570.5   2.5    54   468     2   426     1   428 0.94 LLM class flavin-dependent oxidoreductase [Achromobacter sp. RTa]
+WP_043546160.1       -            454 FMN_dependent_monooxygenase -            552  4.8e-155  515.7   1.4   1   1  4.5e-158  5.3e-155  515.5   1.4    48   468     1   445     1   454 0.92 LLM class flavin-dependent oxidoreductase [Achromobacter sp. RTa]
+WP_156124345.1       -            342 FMN_dependent_monooxygenase -            552   2.2e-13   48.1   3.4   1   2   6.3e-15   7.4e-12   43.0   0.7    85   196    52   165    27   172 0.85 LLM class oxidoreductase [Achromobacter sp. RTa]
+WP_156124345.1       -            342 FMN_dependent_monooxygenase -            552   2.2e-13   48.1   3.4   2   2    0.0013       1.5    5.7   0.1   246   293   191   242   175   247 0.81 LLM class oxidoreductase [Achromobacter sp. RTa]
+WP_043548508.1       -            365 FMN_dependent_monooxygenase -            552   6.5e-07   26.7   0.0   1   2   2.9e-09   3.5e-06   24.3   0.0    88   206    18   141    15   148 0.79 LLM class flavin-dependent oxidoreductase [Achromobacter sp. RTa]
+WP_043548508.1       -            365 FMN_dependent_monooxygenase -            552   6.5e-07   26.7   0.0   2   2      0.09   1.1e+02   -0.4   0.0   382   409   294   316   239   334 0.55 LLM class flavin-dependent oxidoreductase [Achromobacter sp. RTa]
+WP_043548107.1       -            338 FMN_dependent_monooxygenase -            552    0.0032   14.5   4.3   1   2   0.00094       1.1    6.1   0.1    76   164    22   107    15   108 0.85 LLM class flavin-dependent oxidoreductase [Achromobacter sp. RTa]
+WP_043548107.1       -            338 FMN_dependent_monooxygenase -            552    0.0032   14.5   4.3   2   2   0.00023      0.28    8.1   1.0   385   427   272   312   199   322 0.58 LLM class flavin-dependent oxidoreductase [Achromobacter sp. RTa]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

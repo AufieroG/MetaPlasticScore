@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_095508332.1       -            337 PETase               -            291   6.2e-13   45.8   0.1   1   1   5.2e-15     1e-12   45.1   0.1    66   235   100   315    20   333 0.67 alpha/beta hydrolase [Bifidobacterium pseudolongum]
+WP_101396361.1       -            357 PETase               -            291     8e-11   38.9   0.1   1   1   2.1e-11   4.2e-09   33.2   0.1    64   256    65   350    53   355 0.76 alpha/beta fold hydrolase [Bifidobacterium pseudolongum]
+WP_129908334.1       -            260 PETase               -            291   3.8e-09   33.3   0.0   1   1   2.8e-11   5.5e-09   32.8   0.0    62   236    19   240     3   255 0.66 alpha/beta hydrolase family protein [Bifidobacterium pseudolongum]
+WP_242499401.1       -            531 PETase               -            291   9.6e-09   32.0   0.3   1   1   7.7e-11   1.5e-08   31.4   0.3    42   214    60   282    14   313 0.81 alpha/beta hydrolase family protein [Bifidobacterium pseudolongum]
+WP_129907966.1       -            794 PETase               -            291   3.1e-08   30.4   0.0   1   1   6.1e-10   1.2e-07   28.4   0.0    83   246   564   781   488   792 0.71 S9 family peptidase [Bifidobacterium pseudolongum]
+WP_129896297.1       -            466 PETase               -            291    0.0002   17.9   0.0   1   1   1.6e-06   0.00031   17.2   0.0    73   161   111   218   104   236 0.73 carboxylesterase/lipase family protein [Bifidobacterium pseudolongum]
+WP_120359346.1       -            288 PETase               -            291    0.0015   15.0   0.1   1   1   2.8e-05    0.0055   13.1   0.1   150   241   106   270    74   281 0.75 alpha/beta fold hydrolase [Bifidobacterium pseudolongum]
+WP_129904332.1       -            273 PETase               -            291    0.0036   13.7   0.1   1   1   2.5e-05     0.005   13.3   0.1   139   167   100   128    13   217 0.80 alpha/beta hydrolase [Bifidobacterium pseudolongum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

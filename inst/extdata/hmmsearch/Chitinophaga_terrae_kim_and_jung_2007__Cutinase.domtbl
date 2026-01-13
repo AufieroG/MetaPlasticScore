@@ -1,0 +1,10 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_089760829.1       -            722 Cutinase             -            267     0.007   14.9   0.1   1   2     0.026        71    1.7   0.0   138   181   197   231   171   255 0.74 alpha/beta fold hydrolase [Chitinophaga terrae (ex Kim and Jung 2007)]
+WP_089760829.1       -            722 Cutinase             -            267     0.007   14.9   0.1   2   2   5.3e-05      0.14   10.6   0.0   130   177   558   603   551   620 0.71 alpha/beta fold hydrolase [Chitinophaga terrae (ex Kim and Jung 2007)]
+WP_089764294.1       -            231 Cutinase             -            267     0.021   13.3   0.0   1   1   8.6e-06     0.024   13.2   0.0   114   181    80   147    19   178 0.83 AcvB/VirJ family lysyl-phosphatidylglycerol hydrolase [Chitinophaga terrae (ex Kim and Jung 2007)]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

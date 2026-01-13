@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_020230180.1       -            306 lignin_peroxidase    -            483   6.3e-07   26.7   0.0   1   1   1.3e-09   8.9e-07   26.2   0.0    53   282    59   304    48   305 0.75 alpha/beta fold hydrolase [Acidovorax sp. MR-S7]
+WP_020231001.1       -            247 lignin_peroxidase    -            483     9e-07   26.2   0.2   1   2    0.0057       3.8    4.4   0.0    50   113    45   107    37   140 0.67 alpha/beta fold hydrolase [Acidovorax sp. MR-S7]
+WP_020231001.1       -            247 lignin_peroxidase    -            483     9e-07   26.2   0.2   2   2   1.2e-07   7.7e-05   19.9   0.0   182   282   142   244   131   245 0.82 alpha/beta fold hydrolase [Acidovorax sp. MR-S7]
+WP_020227516.1       -            306 lignin_peroxidase    -            483   2.6e-05   21.4   0.0   1   1   5.5e-08   3.7e-05   20.9   0.0    47   140    53   147    30   159 0.82 alpha/beta fold hydrolase [Acidovorax sp. MR-S7]
+WP_020228069.1       -            277 lignin_peroxidase    -            483   0.00021   18.4   0.2   1   2    0.0029         2    5.3   0.1    58   143    72   158    60   202 0.76 alpha/beta fold hydrolase [Acidovorax sp. MR-S7]
+WP_020228069.1       -            277 lignin_peroxidase    -            483   0.00021   18.4   0.2   2   2   3.5e-05     0.023   11.7   0.0   212   282   199   270   193   277 0.90 alpha/beta fold hydrolase [Acidovorax sp. MR-S7]
+WP_020228595.1       -            260 lignin_peroxidase    -            483   0.00065   16.8   0.1   1   1   1.9e-05     0.013   12.5   0.1   202   276   172   246    10   253 0.70 alpha/beta fold hydrolase [Acidovorax sp. MR-S7]
+WP_020229406.1       -            288 lignin_peroxidase    -            483      0.02   11.9   0.0   1   1   4.2e-05     0.028   11.4   0.0    52   138    61   145    50   155 0.78 alpha/beta fold hydrolase [Acidovorax sp. MR-S7]
+WP_020226710.1       -            284 lignin_peroxidase    -            483     0.061   10.3   0.0   1   2   0.00065      0.44    7.5   0.0    53   131    57   139    50   148 0.85 alpha/beta fold hydrolase [Acidovorax sp. MR-S7]
+WP_020226710.1       -            284 lignin_peroxidase    -            483     0.061   10.3   0.0   2   2      0.09        60    0.4   0.0   244   276   238   270   216   277 0.89 alpha/beta fold hydrolase [Acidovorax sp. MR-S7]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

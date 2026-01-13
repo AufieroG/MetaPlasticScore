@@ -1,0 +1,8 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_020227222.1       -            372 fatty_acid_desaturase -            419      0.04   10.7   3.0   1   1   1.2e-05     0.057   10.2   3.0    11   127    18   137     1   140 0.65 sensor domain-containing diguanylate cyclase [Acidovorax sp. MR-S7]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

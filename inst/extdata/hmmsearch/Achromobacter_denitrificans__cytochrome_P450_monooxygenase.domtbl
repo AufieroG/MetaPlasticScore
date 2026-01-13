@@ -1,0 +1,9 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                    accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----          -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_043548868.1       -            784 cytochrome_P450_monooxygenase -            552   3.7e-11   40.7   0.2   1   2      0.17   9.9e+02   -3.6   0.0   144   183   122   166   115   170 0.82 cytochrome P450/oxidoreductase [Achromobacter sp. RTa]
+WP_043548868.1       -            784 cytochrome_P450_monooxygenase -            552   3.7e-11   40.7   0.2   2   2   5.3e-12   3.1e-08   31.1   0.1   331   511   268   412   237   422 0.85 cytochrome P450/oxidoreductase [Achromobacter sp. RTa]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,11 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_043544658.1       -            589 laccase              -            716   3.2e-37  126.6   0.3   1   3   1.2e-36   3.5e-33  113.3   0.0   100   346    60   329    55   343 0.82 copper resistance system multicopper oxidase [Achromobacter sp. RTa]
+WP_043544658.1       -            589 laccase              -            716   3.2e-37  126.6   0.3   2   3     0.083   2.4e+02   -1.9   0.0   330   546   504   528   493   532 0.49 copper resistance system multicopper oxidase [Achromobacter sp. RTa]
+WP_043544658.1       -            589 laccase              -            716   3.2e-37  126.6   0.3   3   3   2.9e-05     0.086    9.5   0.0   587   623   546   582   540   589 0.80 copper resistance system multicopper oxidase [Achromobacter sp. RTa]
+WP_043546127.1       -            214 laccase              -            716     0.043   10.5   4.3   1   1     2e-05     0.059   10.1   4.3    82   122    12    53     5    61 0.88 formate dehydrogenase FDH3 subunit beta [Achromobacter sp. RTa]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,9 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_165364562.1       -            192 fatty_acid_desaturase -            419   0.00043   15.7   1.6   1   1   6.5e-07   0.00052   15.4   1.6    31   146    51   173    19   186 0.66 manganese efflux pump MntP family protein [Bifidobacterium pseudolongum]
+WP_022857578.1       -            152 fatty_acid_desaturase -            419    0.0097   11.2   0.1   1   1   1.6e-05     0.013   10.8   0.1    60   122    70   130    62   136 0.79 tripartite tricarboxylate transporter TctB family protein [Bifidobacterium pseudolongum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

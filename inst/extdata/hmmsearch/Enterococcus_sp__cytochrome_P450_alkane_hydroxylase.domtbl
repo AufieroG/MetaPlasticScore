@@ -1,0 +1,8 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                    accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----          -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_170999876.1       -             46 cytochrome_P450_monooxygenase -            552     0.012   11.0   0.0   1   1   6.4e-06     0.012   11.0   0.0   202   233     7    38     2    45 0.89 hypothetical protein [Enterococcus nangangensis]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

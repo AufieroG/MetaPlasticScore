@@ -1,0 +1,8 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_134838052.1       -            448 dyp_type_peroxidase  -            467   1.8e-62  209.3   8.6   1   1   6.7e-66   2.2e-62  209.0   8.6   105   378    76   433     8   447 0.72 iron uptake transporter deferrochelatase/peroxidase subunit [Kerstersia gyiorum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_029076056.1       -            261 lignin_peroxidase    -            483     1e-13   49.0   0.1   1   1   6.7e-16   4.3e-13   47.0   0.1    44   276    36   253    30   260 0.82 3-oxoadipate enol-lactonase [Kaistia adipata]
+WP_029074849.1       -            252 lignin_peroxidase    -            483   1.9e-09   35.0   0.1   1   2   2.5e-10   1.6e-07   28.6   0.0    10   128     6   121     3   133 0.88 alpha/beta fold hydrolase [Kaistia adipata]
+WP_029074849.1       -            252 lignin_peroxidase    -            483   1.9e-09   35.0   0.1   2   2    0.0045       2.9    4.7   0.1   207   270   174   235   135   247 0.86 alpha/beta fold hydrolase [Kaistia adipata]
+WP_158581548.1       -            254 lignin_peroxidase    -            483   2.5e-06   24.7   0.0   1   2   2.5e-07   0.00016   18.8   0.0     7   135     3   125     1   150 0.85 MULTISPECIES: alpha/beta fold hydrolase [Pseudomonadota]
+WP_158581548.1       -            254 lignin_peroxidase    -            483   2.5e-06   24.7   0.0   2   2    0.0062         4    4.3   0.1   229   281   187   250   132   253 0.68 MULTISPECIES: alpha/beta fold hydrolase [Pseudomonadota]
+WP_029073763.1       -            275 lignin_peroxidase    -            483   3.8e-05   20.8   0.5   1   1   5.5e-07   0.00036   17.6   0.5    63   260    53   243    45   266 0.77 alpha/beta fold hydrolase [Kaistia adipata]
+WP_029076718.1       -            293 lignin_peroxidase    -            483   4.3e-05   20.6   0.1   1   1   1.1e-07   7.4e-05   19.9   0.1    49   286    39   273    26   290 0.74 alpha/beta fold hydrolase [Kaistia adipata]
+WP_051231146.1       -            326 lignin_peroxidase    -            483   0.00067   16.7   0.0   1   1   1.6e-06    0.0011   16.1   0.0    56   132    69   145    58   238 0.77 prolyl aminopeptidase [Kaistia adipata]
+WP_035830906.1       -            253 lignin_peroxidase    -            483     0.018   12.0   0.0   1   2     9e-05     0.058   10.3   0.0    60   131    51   122    48   148 0.85 alpha/beta hydrolase [Kaistia adipata]
+WP_035830906.1       -            253 lignin_peroxidase    -            483     0.018   12.0   0.0   2   2      0.25   1.6e+02   -1.0   0.0   213   246   175   208   167   232 0.77 alpha/beta hydrolase [Kaistia adipata]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

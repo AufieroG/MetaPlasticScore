@@ -1,0 +1,8 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_010768888.1       -            249 fatty_acid_desaturase -            419     0.024   11.0   1.4   1   1   1.1e-05     0.037   10.4   1.4    16   105    16   107     1   150 0.71 hypothetical protein [Enterococcus phoeniculicola]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

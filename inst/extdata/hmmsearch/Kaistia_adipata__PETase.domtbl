@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_029076146.1       -            280 PETase               -            291   2.1e-14   52.1   0.1   1   1   7.3e-17   2.8e-14   51.7   0.1    52   251    25   278    15   280 0.73 alpha/beta hydrolase family protein [Kaistia adipata]
+WP_029073845.1       -            295 PETase               -            291   3.3e-14   51.4   0.0   1   1   1.1e-16   3.9e-14   51.2   0.0    48   252    70   293    35   295 0.75 YghX family hydrolase [Kaistia adipata]
+WP_035830906.1       -            253 PETase               -            291     1e-13   49.9   0.0   1   1   1.1e-15   4.1e-13   47.8   0.0    78   252    21   250    11   253 0.78 alpha/beta hydrolase [Kaistia adipata]
+WP_029074849.1       -            252 PETase               -            291     5e-08   31.1   0.0   1   1   2.7e-10     1e-07   30.2   0.0    74   234    17   232    10   247 0.73 alpha/beta fold hydrolase [Kaistia adipata]
+WP_029074034.1       -            217 PETase               -            291   2.1e-07   29.1   0.0   1   1   6.8e-10   2.5e-07   28.8   0.0    92   238    46   197    14   207 0.73 alpha/beta hydrolase [Kaistia adipata]
+WP_029076056.1       -            261 PETase               -            291   0.00024   19.1   0.0   1   1   7.2e-06    0.0027   15.6   0.0   137   244    80   254    68   261 0.64 3-oxoadipate enol-lactonase [Kaistia adipata]
+WP_029074876.1       -            218 PETase               -            291    0.0026   15.7   0.0   1   1   1.1e-05     0.004   15.1   0.0    76   201    14   154     8   209 0.75 alpha/beta family hydrolase [Kaistia adipata]
+WP_029074460.1       -            491 PETase               -            291    0.0036   15.2   0.3   1   1   5.8e-05     0.022   12.7   0.3    73   218   116   333    63   348 0.62 alpha/beta hydrolase [Kaistia adipata]
+WP_051231320.1       -            320 PETase               -            291    0.0038   15.1   1.4   1   1   1.7e-05    0.0063   14.4   1.4    50   238    59   300    37   319 0.62 alpha/beta hydrolase [Kaistia adipata]
+WP_029076718.1       -            293 PETase               -            291     0.027   12.3   0.0   1   1   0.00035      0.13   10.1   0.0   147   200    90   225    70   252 0.77 alpha/beta fold hydrolase [Kaistia adipata]
+WP_029075184.1       -            218 PETase               -            291     0.036   11.9   0.0   1   1   9.6e-05     0.036   11.9   0.0   141   209   100   173    19   204 0.74 alpha/beta hydrolase [Kaistia adipata]
+WP_029073763.1       -            275 PETase               -            291     0.058   11.2   0.2   1   1   0.00051      0.19    9.6   0.2   145   200    87   220    82   245 0.57 alpha/beta fold hydrolase [Kaistia adipata]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

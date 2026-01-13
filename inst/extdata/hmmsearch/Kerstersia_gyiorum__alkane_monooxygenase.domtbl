@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_068369944.1       -            392 alkane_monooxygenase -            375     0.082    9.4   1.1   1   2    0.0075        25    1.2   0.1   121   139    12    30     3    44 0.82 acetyl-CoA C-acetyltransferase [Kerstersia gyiorum]
+WP_068369944.1       -            392 alkane_monooxygenase -            375     0.082    9.4   1.1   2   2    0.0002      0.68    6.4   0.1   264   289   160   185   155   188 0.86 acetyl-CoA C-acetyltransferase [Kerstersia gyiorum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

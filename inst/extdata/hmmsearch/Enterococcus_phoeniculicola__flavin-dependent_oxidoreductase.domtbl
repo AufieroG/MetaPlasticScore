@@ -1,0 +1,10 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_010769674.1       -            356 flavin-dependent_oxidoreductase -            474   2.8e-06   23.8   0.0   1   3   5.7e-09     2e-05   21.0   0.0    64   132    53   117    15   128 0.73 LLM class flavin-dependent oxidoreductase [Enterococcus phoeniculicola]
+WP_010769674.1       -            356 flavin-dependent_oxidoreductase -            474   2.8e-06   23.8   0.0   2   3     0.018        62   -0.4   0.0   257   295   221   259   216   270 0.84 LLM class flavin-dependent oxidoreductase [Enterococcus phoeniculicola]
+WP_010769674.1       -            356 flavin-dependent_oxidoreductase -            474   2.8e-06   23.8   0.0   3   3      0.12   4.3e+02   -3.2   0.0   304   334   305   335   295   352 0.64 LLM class flavin-dependent oxidoreductase [Enterococcus phoeniculicola]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

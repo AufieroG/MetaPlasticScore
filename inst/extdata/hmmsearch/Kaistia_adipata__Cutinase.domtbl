@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_029076458.1       -            461 Cutinase             -            267    0.0065   14.7   0.0   1   2       0.5   2.3e+03   -3.5   0.0    82   103   175   200   165   223 0.68 AcvB/VirJ family lysyl-phosphatidylglycerol hydrolase [Kaistia adipata]
+WP_029076458.1       -            461 Cutinase             -            267    0.0065   14.7   0.0   2   2   4.1e-06     0.018   13.2   0.0   120   180   305   365   293   385 0.89 AcvB/VirJ family lysyl-phosphatidylglycerol hydrolase [Kaistia adipata]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

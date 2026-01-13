@@ -1,0 +1,8 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_035831505.1       -            364 alkane_1_monooxygenase -            406   4.9e-05   20.3   7.9   1   1   2.3e-08   0.00011   19.2   8.0   106   348    62   314    49   360 0.75 fatty acid desaturase family protein [Kaistia adipata]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_137599408.1       -            245 lignin_peroxidase    -            483   0.00089   15.1   0.0   1   2   0.00012      0.22    7.2   0.0    50   130    45   123    35   159 0.84 alpha/beta fold hydrolase [Enterococcus nangangensis]
+WP_137599408.1       -            245 lignin_peroxidase    -            483   0.00089   15.1   0.0   2   2   0.00025      0.47    6.1   0.0   221   286   176   240   141   244 0.94 alpha/beta fold hydrolase [Enterococcus nangangensis]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

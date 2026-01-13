@@ -1,0 +1,26 @@
+Package: MetaPlasticScore
+Title: Pipeline For Computing A "Plastic Degradation Potential Score And Plot"
+Version: 0.0.1
+Authors@R: 
+    person("Gaetano", "Aufiero", , "gaetano.aufiero@unina.it", role = c("aut", "cre"))
+Description: MetaPlasticScore is designed to estimate the potential for plastic degradation from metagenomic data. The package integrates enzyme annotation results from HMMER (hmmsearch) with taxon abundance profiles and metadata to compute a plastic score and plot at the sample level.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports: 
+    circlize,
+    dplyr,
+    ggplot2,
+    ggrepel,
+    grid,
+    magrittr,
+    RColorBrewer,
+    stats,
+    tidyr,
+    utils,
+    vegan,
+    viridis
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

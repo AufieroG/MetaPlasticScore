@@ -112,7 +112,6 @@ The following CSV files are also required and must be mutually consistent.
 - - Required columns:
   - `Taxa` (taxon identifier)  
   - `sample IDs` (`STD_rep1`, `STD_rep2`, `PE_rep1`, …)  
-  - `Groups` → experimental condition
 - Values: normalized or absolute abundances (numeric)
 
 Example structure:

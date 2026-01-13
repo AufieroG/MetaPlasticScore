@@ -43,8 +43,6 @@ library("MetaPlasticScore")
 
 ## ⚙️ Input Preparation
 
-The pipeline requires a strict directory structure and file naming convention to link HMMER outputs with taxonomic and abundance data. All identifiers (taxon IDs, sample names) must match exactly across files (case-sensitive).
-
 ### 1. HMMER search outputs
 
 PlasticScore requires output files from `hmmsearch` (HMMER suite) generated using enzyme-specific HMM profiles.
@@ -63,7 +61,7 @@ or
 - `<taxon_id>` must exactly match the taxon identifiers used in the abundance and taxonomy CSV files.  
 - `<enzyme_id>` must correspond to the HMM model name.
 
-### Pre-generated HMM models
+#### Pre-generated HMM models
 
 The package includes **pre-generated HMM models** for plastic-degrading enzymes, located in:
 
@@ -87,7 +85,7 @@ Users may use these HMM models directly or replace them with custom HMM profiles
 
 The HMM models are used as input to `hmmsearch` to perform profile-to-sequence searches against the protein complement of each taxon.
 
-### Example `hmmsearch` command
+#### Example `hmmsearch` command
 
 ```bash
 for hmm in path/to/HMMmodel/*.hmm; do
@@ -183,7 +181,7 @@ In the example datasets:
 ---
 
 ## ▶️ Running the PlasticScore pipeline
-### Example `hmmsearch` command
+### Example command to run the pipeline
 ```r
 # locate example data loaded with the package
 extdata_path <- system.file("extdata", package = "MetaPlasticScore")
@@ -211,7 +209,7 @@ result <- run_MetaPlasticScore(
 
 ---
 
-## 🧾 Main Output Objects
+### 🧾 Main Output Objects
 
 ```r
 # Filtered HMMER hits retained after coverage and domain-bias filtering
@@ -253,7 +251,7 @@ df_phylum_enzyme <- result$df_phylum_enzyme
 
 ---
 
-## 📈 Plot generation
+### 📈 Plot generation
 
 ```r
 plot_MetaPlasticScore(

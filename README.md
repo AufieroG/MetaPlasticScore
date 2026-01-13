@@ -253,7 +253,7 @@ df_phylum_enzyme <- result$df_phylum_enzyme
 ### 📈 Plot generation
 
 ```r
-# The default plotting configuration contained in default_plot_config() function is:
+# The default plotting configuration provided by the default_plot_config() function is:
  
    # # ============================================================
     # # OUTPUT / SAVING OPTIONS (GLOBAL)

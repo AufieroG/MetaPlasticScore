@@ -1,0 +1,40 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_042124053.1       -            276 PETase               -            291   4.5e-18   64.5   0.0   1   1   2.5e-20   5.7e-18   64.2   0.0    63   256    16   268     5   276 0.84 MULTISPECIES: alpha/beta hydrolase family protein [Paenibacillus]
+WP_042123673.1       -            755 PETase               -            291   6.3e-12   44.3   0.0   1   1   4.1e-14   9.3e-12   43.8   0.0    62   236   256   472   163   488 0.72 alpha/beta hydrolase family protein [Paenibacillus sp. FSL R5-0345]
+WP_042126057.1       -            695 PETase               -            291   7.3e-10   37.6   0.0   1   1   4.4e-12   9.9e-10   37.1   0.0    34   250    48   299     1   306 0.72 alpha/beta hydrolase fold domain-containing protein [Paenibacillus sp. FSL R5-0345]
+WP_042125507.1       -            320 PETase               -            291   4.1e-09   35.1   0.0   1   1   4.5e-11     1e-08   33.8   0.0    58   219    61   293    46   314 0.73 acetylxylan esterase [Paenibacillus sp. FSL R5-0345]
+WP_042131873.1       -            290 PETase               -            291   1.2e-08   33.6   0.0   1   1   1.1e-10   2.4e-08   32.6   0.0    71   244    22   276    17   289 0.72 MULTISPECIES: alpha/beta hydrolase [Paenibacillus]
+WP_442950211.1       -            368 PETase               -            291   1.1e-07   30.4   0.0   1   1   1.3e-09     3e-07   29.0   0.0    57   235   103   344    72   359 0.71 alpha/beta hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042123755.1       -            311 PETase               -            291   1.2e-06   27.0   0.0   1   1   7.9e-09   1.8e-06   26.4   0.0   145   253   161   310    83   311 0.72 alpha/beta hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042124615.1       -            322 PETase               -            291   2.5e-06   25.9   0.0   1   1   1.5e-08   3.5e-06   25.5   0.0    55   181    50   208    31   246 0.73 MULTISPECIES: alpha/beta hydrolase [unclassified Paenibacillus]
+WP_231574178.1       -            318 PETase               -            291   3.6e-06   25.5   0.0   1   1   2.5e-08   5.7e-06   24.8   0.0    79   235    99   298    86   317 0.63 MULTISPECIES: alpha/beta hydrolase [Paenibacillus]
+WP_231574121.1       -            373 PETase               -            291   4.2e-06   25.2   0.0   1   1   3.4e-08   7.8e-06   24.3   0.0    67   252    26   242    22   259 0.79 prolyl oligopeptidase family serine peptidase [Paenibacillus sp. FSL R5-0345]
+WP_042124994.1       -            259 PETase               -            291   6.3e-06   24.7   0.0   1   1   8.2e-08   1.9e-05   23.1   0.0    79   216    26   228    17   255 0.75 alpha/beta fold hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042129697.1       -            490 PETase               -            291   6.5e-06   24.6   0.2   1   1   4.5e-08     1e-05   24.0   0.2    59   158    69   195    41   234 0.76 carboxylesterase/lipase family protein [Paenibacillus sp. FSL R5-0345]
+WP_042126132.1       -            296 PETase               -            291   1.2e-05   23.7   0.0   1   1   5.9e-08   1.4e-05   23.6   0.0    94   176    92   189    58   272 0.81 MULTISPECIES: dienelactone hydrolase family protein [Paenibacillus]
+WP_042130931.1       -            221 PETase               -            291   1.8e-05   23.2   0.1   1   1   9.2e-08   2.1e-05   22.9   0.1   184   250   152   217     4   219 0.78 MULTISPECIES: alpha/beta hydrolase [Paenibacillus]
+WP_042123943.1       -            346 PETase               -            291   2.1e-05   22.9   0.0   1   1   1.1e-07   2.6e-05   22.6   0.0    66   183   102   229    66   328 0.69 MULTISPECIES: alpha/beta hydrolase [unclassified Paenibacillus]
+WP_042128522.1       -            336 PETase               -            291   0.00025   19.4   0.0   1   1   1.9e-06   0.00043   18.6   0.0    52   238    37   300    23   322 0.71 alpha/beta hydrolase family protein [Paenibacillus sp. FSL R5-0345]
+WP_042126108.1       -            505 PETase               -            291   0.00045   18.6   0.0   1   1   3.3e-06   0.00075   17.8   0.0    63   167    94   215    16   247 0.69 carboxylesterase/lipase family protein [Paenibacillus sp. FSL R5-0345]
+WP_042126609.1       -            286 PETase               -            291   0.00074   17.9   0.0   1   1   2.6e-05    0.0058   14.9   0.0    77   242    24   274    15   281 0.71 alpha/beta fold hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042127609.1       -            268 PETase               -            291    0.0013   17.0   0.1   1   1   2.4e-05    0.0054   15.0   0.1   144   218    86   238    71   263 0.65 alpha/beta fold hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042130685.1       -            251 PETase               -            291     0.002   16.5   0.0   1   1   1.1e-05    0.0026   16.1   0.0   137   176    99   139    59   168 0.81 alpha/beta hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042131034.1       -            268 PETase               -            291    0.0039   15.5   0.0   1   1   0.00012     0.028   12.7   0.0    74   233    17   242     7   260 0.54 MULTISPECIES: alpha/beta fold hydrolase [unclassified Paenibacillus]
+WP_331281361.1       -            262 PETase               -            291    0.0089   14.3   0.0   1   2      0.81   1.8e+02    0.1   0.0    60    90    42    73     4    81 0.65 alpha/beta hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_331281361.1       -            262 PETase               -            291    0.0089   14.3   0.0   2   2   0.00019     0.044   12.0   0.0   141   174   147   180   121   249 0.76 alpha/beta hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042128198.1       -            318 PETase               -            291     0.019   13.2   0.0   1   1   9.2e-05     0.021   13.1   0.0    41   161    46   173    12   313 0.78 alpha/beta hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042131592.1       -            264 PETase               -            291     0.029   12.6   0.0   1   1   0.00017     0.038   12.2   0.0   181   232   199   246    16   263 0.72 MULTISPECIES: alpha/beta fold hydrolase [unclassified Paenibacillus]
+WP_042123927.1       -            273 PETase               -            291     0.042   12.1   0.0   1   1   0.00024     0.054   11.7   0.0    79   205    31   218    22   269 0.69 MULTISPECIES: alpha/beta hydrolase [unclassified Paenibacillus]
+WP_042123350.1       -            308 PETase               -            291      0.05   11.8   0.0   1   1   0.00029     0.065   11.5   0.0    57   165    56   167    30   216 0.69 MULTISPECIES: alpha/beta hydrolase [Paenibacillus]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/PETase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Paenibacillus_sp.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Paenibacillus_sp__PETase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Paenibacillus_sp__PETase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/PETase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Paenibacillus_sp.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:24 2026
+# [ok]

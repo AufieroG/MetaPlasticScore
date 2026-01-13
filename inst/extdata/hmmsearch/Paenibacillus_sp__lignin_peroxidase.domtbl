@@ -1,0 +1,23 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_042131592.1       -            264 lignin_peroxidase    -            483   3.8e-13   47.6   0.0   1   1   5.1e-16   4.3e-13   47.4   0.0    57   283    44   264    11   264 0.83 MULTISPECIES: alpha/beta fold hydrolase [unclassified Paenibacillus]
+WP_042126609.1       -            286 lignin_peroxidase    -            483   4.5e-13   47.3   0.0   1   1   6.6e-16   5.6e-13   47.0   0.0    39   264    37   263     6   281 0.80 alpha/beta fold hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042124994.1       -            259 lignin_peroxidase    -            483   9.2e-05   19.9   0.0   1   2     0.012        10    3.3   0.0    57   120    51   112    34   137 0.81 alpha/beta fold hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042124994.1       -            259 lignin_peroxidase    -            483   9.2e-05   19.9   0.0   2   2   3.9e-06    0.0033   14.8   0.0   207   275   184   252   171   258 0.91 alpha/beta fold hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042130958.1       -            269 lignin_peroxidase    -            483   0.00039   17.9   0.0   1   1   6.4e-07   0.00054   17.4   0.0    11   132     7   121     3   140 0.80 MULTISPECIES: alpha/beta fold hydrolase [unclassified Paenibacillus]
+WP_042127609.1       -            268 lignin_peroxidase    -            483    0.0088   13.4   0.0   1   2      0.18   1.5e+02   -0.6   0.0    58   129    47   118    33   134 0.88 alpha/beta fold hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042127609.1       -            268 lignin_peroxidase    -            483    0.0088   13.4   0.0   2   2     4e-05     0.033   11.5   0.0   214   260   198   244   186   266 0.86 alpha/beta fold hydrolase [Paenibacillus sp. FSL R5-0345]
+WP_042131034.1       -            268 lignin_peroxidase    -            483     0.012   12.9   0.0   1   2   3.3e-05     0.028   11.8   0.0    48   125    37   112    30   258 0.87 MULTISPECIES: alpha/beta fold hydrolase [unclassified Paenibacillus]
+WP_042131034.1       -            268 lignin_peroxidase    -            483     0.012   12.9   0.0   2   2      0.69   5.8e+02   -2.5   0.0   343   361   235   253   228   266 0.74 MULTISPECIES: alpha/beta fold hydrolase [unclassified Paenibacillus]
+WP_052414423.1       -            586 lignin_peroxidase    -            483     0.035   11.4   0.0   1   1   0.00024      0.21    8.9   0.0   294   425   403   557   381   576 0.66 CHASE2 domain-containing protein [Paenibacillus sp. FSL R5-0345]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/lignin_peroxidase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Paenibacillus_sp.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Paenibacillus_sp__lignin_peroxidase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Paenibacillus_sp__lignin_peroxidase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/lignin_peroxidase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Paenibacillus_sp.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:26 2026
+# [ok]

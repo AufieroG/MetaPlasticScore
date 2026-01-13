@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_070925098.1       -            309 dyp_type_peroxidase  -            467     3e-98  327.7   0.0   1   1    3e-101   3.2e-98  327.5   0.0   106   378     4   306     1   309 0.90 MULTISPECIES: Dyp-type peroxidase [Providencia]
+WP_070930076.1       -            298 dyp_type_peroxidase  -            467   7.5e-85  283.5   0.0   1   1   7.8e-88   8.3e-85  283.3   0.0   100   380     1   295     1   298 0.89 MULTISPECIES: Dyp-type peroxidase [Providencia]
+WP_140185832.1       -            429 dyp_type_peroxidase  -            467     1e-60  203.9   0.0   1   1   1.2e-63   1.3e-60  203.5   0.0   105   384    57   417     4   428 0.73 iron uptake transporter deferrochelatase/peroxidase subunit [Providencia stuartii]
+WP_233445654.1       -            156 dyp_type_peroxidase  -            467     3e-55  185.9   0.0   1   1     3e-58   3.2e-55  185.8   0.0   241   378     4   153     1   156 0.95 Dyp-type peroxidase [Providencia stuartii]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/dyp_type_peroxidase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Providencia_stuartii.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Providencia_stuartii__dyp_type_peroxidase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Providencia_stuartii__dyp_type_peroxidase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/dyp_type_peroxidase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Providencia_stuartii.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:31 2026
+# [ok]

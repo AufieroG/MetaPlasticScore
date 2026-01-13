@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_099372969.1       -            765 laccase              -            716   4.9e-46  155.2   8.1   1   2   2.1e-44   2.8e-41  139.5   4.2    98   554    38   513    31   516 0.72 multicopper oxidase domain-containing protein [Sphingobacterium sp. 1.A.5]
+WP_099372969.1       -            765 laccase              -            716   4.9e-46  155.2   8.1   2   2   2.3e-07   0.00031   17.0   0.1   582   640   518   576   516   619 0.85 multicopper oxidase domain-containing protein [Sphingobacterium sp. 1.A.5]
+WP_037459500.1       -            757 laccase              -            716   1.1e-44  150.7   6.9   1   3   1.9e-38   2.4e-35  119.8   0.4    99   351    41   318    35   331 0.77 MULTISPECIES: multicopper oxidase family protein [Sphingobacterium]
+WP_037459500.1       -            757 laccase              -            716   1.1e-44  150.7   6.9   2   3   0.00026      0.34    7.0   0.2   531   554   486   506   354   511 0.70 MULTISPECIES: multicopper oxidase family protein [Sphingobacterium]
+WP_037459500.1       -            757 laccase              -            716   1.1e-44  150.7   6.9   3   3   6.6e-10   8.6e-07   25.5   0.0   581   633   510   562   505   579 0.90 MULTISPECIES: multicopper oxidase family protein [Sphingobacterium]
+WP_099370045.1       -            479 laccase              -            716    0.0072   12.5   0.1   1   2    0.0011       1.4    4.9   0.0   600   648   146   198   136   250 0.71 copper-containing nitrite reductase [Sphingobacterium sp. 1.A.5]
+WP_099370045.1       -            479 laccase              -            716    0.0072   12.5   0.1   2   2     0.001       1.4    5.0   0.0   587   628   286   328   279   338 0.78 copper-containing nitrite reductase [Sphingobacterium sp. 1.A.5]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/laccase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Sphingobacterium_sp.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Sphingobacterium_sp__laccase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Sphingobacterium_sp__laccase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/laccase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Sphingobacterium_sp.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:34 2026
+# [ok]

@@ -109,8 +109,10 @@ The following CSV files are also required and must be mutually consistent.
 #### Abundance table
 
 - File example: `Abundance.csv`
-- First column: `Taxa` (taxon identifier)  
-- Remaining columns: sample IDs (`STD_rep1`, `STD_rep2`, `PE_rep1`, …)  
+- - Required columns:
+  - `Taxa` (taxon identifier)  
+  - `sample IDs` (`STD_rep1`, `STD_rep2`, `PE_rep1`, …)  
+  - `Groups` → experimental condition
 - Values: normalized or absolute abundances (numeric)
 
 Example structure:
@@ -145,8 +147,9 @@ PE_rep3,PE
 
 - File example: `Metadata_taxa.csv`
 - Required columns:
-  - `taxon_id` → taxon identifier (must match `Taxa`)
   - `Phylum` → phylum assignment
+  - `taxon_id` → taxon identifier (must match `Taxa`)
+
 
 Example:
 

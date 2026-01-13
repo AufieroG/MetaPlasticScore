@@ -7,7 +7,7 @@
 # * https://testthat.r-lib.org/articles/special-files.html
 
 library(testthat)
-library(PlasticScore)
+library(MetaPlasticScore)
 
-test_check("PlasticScore")
+test_check("MetaPlasticScore")
 

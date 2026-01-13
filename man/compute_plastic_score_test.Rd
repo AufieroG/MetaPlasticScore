@@ -9,7 +9,7 @@ compute_plastic_score_test(plastic_score, metadata, sample_col, condition_col)
 \arguments{
 \item{plastic_score}{Named numeric vector of sample-level scores (names = sample IDs).}
 
-\item{metadata}{Data.frame containing sample metadata.}
+\item{metadata}{Data.frame containing sample metadata, (columns: Samples and    Groups).}
 
 \item{sample_col}{Character(1). Column name in 'metadata' that contains sample IDs.}
 
@@ -25,7 +25,6 @@ distribution between groups defined in metadata.
 \details{
 The function merges 'plastic_score' with 'metadata' using 'sample_col', then
 runs 'wilcox.test(score ~ group)'. It is intended for two-group comparisons.
-For multi-group situations use Kruskal-Wallis or another appropriate method.
 }
 \examples{
 # res <- compute_plastic_score_test(score_vector, metadata, "Samples", "Groups")

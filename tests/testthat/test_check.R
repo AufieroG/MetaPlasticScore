@@ -1,8 +1,8 @@
-library("PlasticScore")
+library("MetaPlasticScore")
 
 test_that("PlasticScore runs on example data in inst/extdata", {
 # locate example data shipped with the package
-extdata_path <- system.file("extdata", package = "PlasticScore")
+extdata_path <- system.file("extdata", package = "MetaPlasticScore")
 expect_true(dir.exists(extdata_path))
 
 hmm_dir <- file.path(extdata_path, "hmmsearch")
@@ -12,7 +12,7 @@ metadata_taxa_csv <- file.path(extdata_path, "Metadata_taxa.csv")
 
 
 # run the pipeline on example data
-result <- run_PlasticScore(
+result <- run_MetaPlasticScore(
   hmmsearch_files = hmm_dir,
   abundance_csv = abundance_csv,
   metadata_groups_csv = metadata_groups_csv,
@@ -25,6 +25,6 @@ result <- run_PlasticScore(
 )
 
 # check output class
-expect_s3_class(result, "plasticScoreResult")
+expect_s3_class(result, "MetaPlasticScoreResult")
 
 })

@@ -71,7 +71,7 @@ These HMM profiles were built from protein sequences identified using:
 > *PlasticDB*
 > [https://plasticdb.org/](https://plasticdb.org/)
 > *Victor Gambarini, Olga Pantos, Joanne M Kingsbury, Louise Weaver, Kim M Handley, Gavin Lear, PlasticDB: a database of microorganisms and proteins linked to plastic biodegradation, Database*
-> [[https://plasticdb.org/](https://plasticdb.org/](https://doi.org/10.1093/database/baac008))
+> [https://doi.org/10.1093/database/baac008](https://doi.org/10.1093/database/baac008)
 
 and are based on the experimental framework and annotations described in:
 

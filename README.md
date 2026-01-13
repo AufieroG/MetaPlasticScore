@@ -1,12 +1,12 @@
 # MetaPlasticScore
 
 <p align="center">
-<img width="400" height="400" alt="MetaPlasticScore" src="https://github.com/user-attachments/assets/201da84e-498c-4e9d-a208-9d058ebd21e0" />
+<img width="400" height="400" alt="MetaPlasticScore" src="https://github.com/user-attachments/assets/355ba6ac-e519-4b00-bbd7-43c846d5f111" />
 <p align="center">
 
 **PlasticScore** is an R-based computational pipeline designed to assess and quantify the plastic-degrading potential of microbial taxa. By integrating HMMER `hmmsearch` outputs with normalized taxon abundance data and metadata, PlasticScore calculates degradation scores, analyzes enzyme loads, and visualizes contributions across taxonomic levels.
 
-**Development status:** MetaPlasticScore R package is currently **under development**. Default parameters, and outputs may change in future releases.
+**Development status:** MetaPlasticScore R package is currently under development. Default parameters, and outputs may change in future releases.
 
 ---
 
@@ -183,20 +183,20 @@ In the example datasets:
 ---
 
 ## ▶️ Running the PlasticScore pipeline
-
+### Example `hmmsearch` command
 ```r
 # locate example data loaded with the package
-extdata_path <- system.file("extdata", package = "PlasticScore")
+extdata_path <- system.file("extdata", package = "MetaPlasticScore")
 expect_true(dir.exists(extdata_path))
 
 hmm_dir <- file.path(extdata_path, "hmmsearch")
-abundance_csv <- file.path(extdata_path, "Abbundance_simulated.csv")
+abundance_csv <- file.path(extdata_path, "Abundance_simulated.csv")
 metadata_groups_csv <- file.path(extdata_path, "Metadata_groups.csv")
 metadata_taxa_csv <- file.path(extdata_path, "Metadata_taxa.csv")
 
 
 # run the pipeline on example data
-result <- run_PlasticScore(
+result <- run_MetaPlasticScore(
   hmmsearch_files = hmm_dir,
   abundance_csv = abundance_csv,
   metadata_groups_csv = metadata_groups_csv,
@@ -215,40 +215,40 @@ result <- run_PlasticScore(
 
 ```r
 # Filtered HMMER hits retained after coverage and domain-bias filtering
-hits_filt <- df$hits_filt
+hits_filt <- result$hits_filt
 
 # PlasticScore computed for each sample
-plastic_score <- df$plastic_score
+plastic_score <- result$plastic_score
 
 # Enzyme load per taxon (number or abundance-weighted count of plastic-degrading enzymes)
-enzyme_load <- df$enzyme_load
+enzyme_load <- result$enzyme_load
 
 # Taxon × enzyme matrix (presence / counts / abundance-weighted values)
-taxon_enzyme_mat <- df$taxon_enzyme_mat
+taxon_enzyme_mat <- result$taxon_enzyme_mat
 
 # Per-taxon summary statistics and contribution metrics
-taxon_stats <- df$taxon_stats
+taxon_stats <- result$taxon_stats
 
 # Abundance table actually used in the analysis (raw or normalized)
-abundance <- df$abundance
+abundance <- result$abundance
 
 # Sample metadata (e.g. experimental groups such as STD and PE)
-metadata_groups <- df$metadata_groups
+metadata_groups <- result$metadata_groups
 
 # Taxonomic metadata used for aggregation (e.g. Phylum)
-metadata_taxa <- df$metadata_taxa
+metadata_taxa <- result$metadata_taxa
 
 # Enzyme abundance aggregated at the sample level
-enzyme_by_sample <- df$enzyme_by_sample
+enzyme_by_sample <- result$enzyme_by_sample
 
 # Contribution of each phylum to the PlasticScore or enzyme load
-contrib_phylum_mat <- df$contrib_phylum_mat
+contrib_phylum_mat <- result$contrib_phylum_mat
 
 # Phylum × enzyme matrix (enzyme profiles aggregated by phylum)
-phylum_enzyme_mat <- df$phylum_enzyme_mat
+phylum_enzyme_mat <- result$phylum_enzyme_mat
 
 # Long-format table of enzyme abundances grouped by phylum (tidy format)
-df_phylum_enzyme <- df$df_phylum_enzyme
+df_phylum_enzyme <- result$df_phylum_enzyme
 ```
 
 ---
@@ -256,7 +256,7 @@ df_phylum_enzyme <- df$df_phylum_enzyme
 ## 📈 Plot generation
 
 ```r
-plot_PlasticScore(
+plot_MetaPlasticScore(
   df_phylum_enzyme = df_phylum_enzyme,
   taxon_enzyme_mat = taxon_enzyme_mat,
   phylum_enzyme_mat = phylum_enzyme_mat,

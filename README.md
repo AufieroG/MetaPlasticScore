@@ -66,26 +66,45 @@ The package includes **pre-generated HMM models** for plastic-degrading enzymes,
 PlasticScore/inst/extdata/HMMmodel/
 ```
 
-These HMM profiles were built from protein sequences identified using the **PlasticDB** database and are based on the study:
+These HMM profiles were built from protein sequences identified using:
 
-> **Zrimec et al., 2023**  
-> *Plastic-degrading potential across the global microbiome*  
-> Microbiome  
-> https://doi.org/10.1186/s40168-023-01649-0
+> *PlasticDB*
+> [https://plasticdb.org/](https://plasticdb.org/)
+> *Victor Gambarini, Olga Pantos, Joanne M Kingsbury, Louise Weaver, Kim M Handley, Gavin Lear, PlasticDB: a database of microorganisms and proteins linked to plastic biodegradation, Database*
+> [[https://plasticdb.org/](https://plasticdb.org/](https://doi.org/10.1093/database/baac008))
 
-Users may use these models directly or replace them with custom HMM profiles if desired.
+and are based on the experimental framework and annotations described in:
+
+> *De Filippis, F., Bonelli, M., Bruno, D. et al. Plastics shape the black soldier fly larvae gut microbiome and select for biodegrading functions. Microbiome 11, 205 (2023).*  
+> [https://doi.org/10.1186/s40168-023-01649-0](https://doi.org/10.1186/s40168-023-01649-0)
+
+Users may use these HMM models directly or replace them with custom HMM profiles if desired.
+
+The HMM models are used as input to `hmmsearch` to perform profile-to-sequence searches against the protein complement of each taxon.
 
 ### Example `hmmsearch` command
 
 ```bash
-hmmsearch   --cpu 1   --domtblout output_dir/<taxon_id>__<enzyme_id>.domtbl   --tblout    output_dir/<taxon_id>__<enzyme_id>.tbl   -E 1e-5   --incE 1e-3   path/to/HMMmodel/<enzyme_id>.hmm   path/to/protein_sequences/<taxon_id>.faa
+for hmm in path/to/HMMmodel/*.hmm; do
+  enzyme_id=$(basename "$hmm" .hmm)
+  for taxon in $(cat taxa_list.txt); do
+    hmmsearch \
+      --cpu 1 \
+      --domtblout output_dir/${taxon}__${enzyme_id}.domtbl \
+      --tblout    output_dir/${taxon}__${enzyme_id}.tbl \
+      -E 1e-5 \
+      --incE 1e-3 \
+      "$hmm" \
+      path/to/protein_sequences/${taxon}.faa
+  done
+done
 ```
 
 ---
 
 ### 2. Abundance and metadata files
 
-The following CSV files are required and must be mutually consistent.
+The following CSV files are also required and must be mutually consistent.
 
 #### Abundance table
 
@@ -132,9 +151,9 @@ PE_rep3,PE
 Example:
 
 ```
-taxon_id,Phylum
-Bifidobacterium_pseudolongum,Actinobacteria
-Cellulosimicrobium_sp,Actinobacteria
+Phylum,taxon_id
+Actinobacteria,Bifidobacterium_pseudolongum
+Actinobacteria,Cellulosimicrobium_sp
 ...
 ```
 
@@ -153,15 +172,6 @@ These example files are provided **for demonstration and testing purposes only**
 In the example datasets:
 - Samples labeled **PE** correspond to **larvae fed on polyethylene (PE)**.
 - Samples labeled **STD** correspond to **larvae fed on a standard diet**.
-
-This experimental design follows the conditions described in:
-
-> **Zrimec et al., 2023**  
-> *Plastic-degrading potential across the global microbiome*  
-> Microbiome  
-> https://doi.org/10.1186/s40168-023-01649-0
-
-⚠️ **Important:** The example datasets are **not intended to represent full experimental results** and should not be used for biological inference. They are included solely to illustrate the workflow and usage of the PlasticScore pipeline.
 
 ---
 
@@ -230,18 +240,6 @@ plot_PlasticScore(
 
 ---
 
-## 📖 Citation
-
-If you use PlasticScore, please cite:
-
-Zrimec et al., 2023. *Plastic-degrading potential across the global microbiome*.  
-Microbiome. https://doi.org/10.1186/s40168-023-01649-0
-
----
-
-## 📜 License
-
-Specify license here (e.g. MIT, GPL-3.0).
 
 
 

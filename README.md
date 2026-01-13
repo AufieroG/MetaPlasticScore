@@ -310,6 +310,7 @@ df_phylum_enzyme <- result$df_phylum_enzyme
     # normalize_contrib = TRUE      # Show contributions as percentages per sample
 
 # To change the configuration parameters you can proceed as follows:
+# cfg <- default_plot_config()
 # cfg$output_dir = "Plots_result"      # Directory where plots are saved if save = TRUE
 # cfg$save = FALSE                     # If TRUE, plots are written to disk automatically
 # cfg$dpi = 200                        # Resolution for raster images (publication-ready)
@@ -328,7 +329,7 @@ plot_MetaPlasticScore(
   meta_taxa = metadata_taxa,
   sample_col = "Samples",
   condition_col = "Groups",
-  cfg = cfg
+  cfg = NULL                                   # NULL to use the default configuration or otherwise you can use the created "cfg" object
 )
 ```
 

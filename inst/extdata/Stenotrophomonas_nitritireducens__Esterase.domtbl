@@ -1,0 +1,24 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_273081522.1       -            426 Esterase             -            359   1.4e-09   35.6   0.0   1   1   4.7e-12   1.7e-09   35.3   0.0    67   292    80   336    23   406 0.70 serine hydrolase domain-containing protein [Stenotrophomonas nitritireducens]
+WP_273084274.1       -            221 Esterase             -            359   4.1e-08   30.7   0.0   1   1   1.6e-10   5.5e-08   30.3   0.0    83   242    13   209     3   219 0.72 alpha/beta hydrolase [Stenotrophomonas nitritireducens]
+WP_273082407.1       -            407 Esterase             -            359   1.2e-07   29.2   0.0   1   1   6.1e-10   2.1e-07   28.4   0.0    68   331    69   378    16   393 0.77 serine hydrolase domain-containing protein [Stenotrophomonas nitritireducens]
+WP_273081138.1       -            387 Esterase             -            359   7.9e-05   19.9   0.0   1   1   2.6e-07     9e-05   19.7   0.0    71   188    98   221    56   337 0.76 alpha/beta fold hydrolase [Stenotrophomonas nitritireducens]
+WP_273083800.1       -            282 Esterase             -            359   0.00059   17.1   0.1   1   1     2e-06   0.00069   16.8   0.1    90   180    30   124    22   237 0.69 alpha/beta fold hydrolase [Stenotrophomonas nitritireducens]
+WP_273080335.1       -            265 Esterase             -            359    0.0023   15.1   0.1   1   1   7.1e-06    0.0025   15.0   0.1    96   182    66   171    18   228 0.75 dienelactone hydrolase family protein [Stenotrophomonas nitritireducens]
+WP_055765105.1       -            277 Esterase             -            359    0.0034   14.6   0.0   1   2   2.5e-05    0.0087   13.2   0.0    90   176    19   108    14   141 0.77 MULTISPECIES: alpha/beta hydrolase [Stenotrophomonas]
+WP_055765105.1       -            277 Esterase             -            359    0.0034   14.6   0.0   2   2      0.77   2.7e+02   -1.6   0.0   194   225   198   231   153   249 0.65 MULTISPECIES: alpha/beta hydrolase [Stenotrophomonas]
+WP_273080461.1       -            266 Esterase             -            359     0.014   12.6   0.0   1   1   4.5e-05     0.016   12.3   0.0   136   221   126   224    64   249 0.70 prolyl oligopeptidase family serine peptidase [Stenotrophomonas nitritireducens]
+WP_273081619.1       -            825 Esterase             -            359     0.024   11.8   0.0   1   1   0.00013     0.044   10.9   0.0   131   252   664   818   604   825 0.63 S9 family peptidase [Stenotrophomonas nitritireducens]
+WP_273082725.1       -            645 Esterase             -            359     0.038   11.1   0.0   1   1   0.00019     0.066   10.3   0.0   144   180   490   566   456   629 0.72 S9 family peptidase [Stenotrophomonas nitritireducens]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Esterase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Stenotrophomonas_nitritireducens.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Stenotrophomonas_nitritireducens__Esterase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Stenotrophomonas_nitritireducens__Esterase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Esterase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Stenotrophomonas_nitritireducens.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:44 2026
+# [ok]

@@ -1,0 +1,18 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                    accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----          -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_080054920.1       -            453 cytochrome_P450_monooxygenase -            552   2.8e-56  189.8   0.0   1   1   1.8e-59     4e-56  189.3   0.0   104   511    51   423    33   452 0.81 cytochrome P450 [Spirosoma aerolatum]
+WP_080056170.1       -            452 cytochrome_P450_monooxygenase -            552   1.9e-26   91.4   0.0   1   2   2.3e-05     0.051   10.7   0.0    98   171    37   111    13   160 0.79 cytochrome P450 [Spirosoma aerolatum]
+WP_080056170.1       -            452 cytochrome_P450_monooxygenase -            552   1.9e-26   91.4   0.0   2   2   6.3e-26   1.4e-22   78.6   0.0   351   517   265   417   256   433 0.87 cytochrome P450 [Spirosoma aerolatum]
+WP_080056169.1       -            440 cytochrome_P450_monooxygenase -            552   1.1e-22   79.0   0.1   1   2   3.2e-05     0.071   10.2   0.0   104   172    39   137     4   234 0.67 cytochrome P450 [Spirosoma aerolatum]
+WP_080056169.1       -            440 cytochrome_P450_monooxygenase -            552   1.1e-22   79.0   0.1   2   2   2.3e-22   5.2e-19   66.8   0.0   355   521   265   417   253   438 0.86 cytochrome P450 [Spirosoma aerolatum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/cytochrome_P450_alkane_hydroxylase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Spirosoma_sp48-14.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Spirosoma_sp48-14__cytochrome_P450_alkane_hydroxylase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Spirosoma_sp48-14__cytochrome_P450_alkane_hydroxylase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/cytochrome_P450_alkane_hydroxylase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Spirosoma_sp48-14.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:39 2026
+# [ok]

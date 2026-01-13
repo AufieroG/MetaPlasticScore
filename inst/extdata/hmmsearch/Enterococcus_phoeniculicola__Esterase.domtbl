@@ -1,0 +1,22 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_010767614.1       -            311 Esterase             -            359   1.5e-05   22.3   0.0   1   1   5.2e-08     2e-05   21.9   0.0    51   245    54   289    27   307 0.75 alpha/beta hydrolase [Enterococcus phoeniculicola]
+WP_010768577.1       -            251 Esterase             -            359   1.6e-05   22.2   0.0   1   1   4.9e-08   1.9e-05   22.0   0.0    78   180    22   141     9   198 0.76 alpha/beta fold hydrolase [Enterococcus phoeniculicola]
+WP_010769736.1       -            290 Esterase             -            359     2e-05   21.9   0.0   1   1   5.8e-08   2.2e-05   21.7   0.0    39   176    12   158     7   257 0.69 alpha/beta hydrolase [Enterococcus phoeniculicola]
+WP_010766860.1       -            247 Esterase             -            359   2.1e-05   21.8   0.3   1   1   6.5e-08   2.5e-05   21.5   0.3    64   210    45   182    29   232 0.72 alpha/beta hydrolase [Enterococcus phoeniculicola]
+WP_010769333.1       -            320 Esterase             -            359   6.3e-05   20.2   0.0   1   1   3.4e-07   0.00013   19.2   0.0    49   245    61   296    26   308 0.76 alpha/beta hydrolase [Enterococcus phoeniculicola]
+WP_010766754.1       -            262 Esterase             -            359    0.0014   15.8   0.0   1   1     4e-06    0.0016   15.6   0.0   110   191    71   159    10   227 0.67 alpha/beta hydrolase [Enterococcus phoeniculicola]
+WP_010769571.1       -            291 Esterase             -            359    0.0033   14.6   0.0   1   1   1.6e-05    0.0061   13.7   0.0    78   166    39   154     3   169 0.70 alpha/beta fold hydrolase [Enterococcus phoeniculicola]
+WP_051100940.1       -            296 Esterase             -            359    0.0043   14.2   0.0   1   1   1.2e-05    0.0044   14.2   0.0   132   187   132   181    67   283 0.75 acetylxylan esterase [Enterococcus phoeniculicola]
+WP_010768277.1       -            314 Esterase             -            359    0.0069   13.5   0.0   1   1   2.5e-05    0.0095   13.1   0.0    91   189    86   232    74   303 0.63 acetylxylan esterase [Enterococcus phoeniculicola]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Esterase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterococcus_phoeniculicola.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterococcus_phoeniculicola__Esterase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterococcus_phoeniculicola__Esterase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Esterase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterococcus_phoeniculicola.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:56 2026
+# [ok]

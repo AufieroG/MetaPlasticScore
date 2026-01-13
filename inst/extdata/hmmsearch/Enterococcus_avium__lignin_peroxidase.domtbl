@@ -1,0 +1,17 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_049220436.1       -            240 lignin_peroxidase    -            483   1.8e-12   44.9   0.0   1   2     2e-09   2.8e-06   24.5   0.0    48   131    42   123    37   134 0.88 MULTISPECIES: alpha/beta fold hydrolase [Enterococcus]
+WP_049220436.1       -            240 lignin_peroxidase    -            483   1.8e-12   44.9   0.0   2   2   1.3e-07   0.00018   18.5   0.0   221   285   176   239   165   240 0.93 MULTISPECIES: alpha/beta fold hydrolase [Enterococcus]
+WP_016178907.1       -            293 lignin_peroxidase    -            483   0.00037   17.5   0.0   1   1   3.4e-07   0.00048   17.1   0.0    58   282    56   289    42   292 0.85 MULTISPECIES: proline iminopeptidase [Enterococcus]
+WP_144325939.1       -            304 lignin_peroxidase    -            483     0.026   11.4   0.0   1   1   9.2e-05      0.13    9.1   0.0    75   251    99   271    90   303 0.58 MULTISPECIES: alpha/beta fold hydrolase [Enterococcus]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/lignin_peroxidase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterococcus_avium.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterococcus_avium__lignin_peroxidase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterococcus_avium__lignin_peroxidase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/lignin_peroxidase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterococcus_avium.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:55 2026
+# [ok]

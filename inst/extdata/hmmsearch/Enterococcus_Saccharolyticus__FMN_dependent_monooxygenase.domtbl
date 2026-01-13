@@ -1,0 +1,16 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_005470677.1       -            350 FMN_dependent_monooxygenase -            552   7.6e-10   35.4   0.1   1   3   3.8e-11   1.1e-07   28.2   0.0    87   164    40   113     1   115 0.72 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Enterococcus]
+WP_005470677.1       -            350 FMN_dependent_monooxygenase -            552   7.6e-10   35.4   0.1   2   3     0.094   2.7e+02   -2.8   0.0   310   325   237   252   206   264 0.72 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Enterococcus]
+WP_005470677.1       -            350 FMN_dependent_monooxygenase -            552   7.6e-10   35.4   0.1   3   3   0.00051       1.5    4.7   0.0   397   422   288   313   267   325 0.81 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Enterococcus]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/FMN_dependent_monooxygenase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterococcus_Saccharolyticus.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterococcus_Saccharolyticus__FMN_dependent_monooxygenase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterococcus_Saccharolyticus__FMN_dependent_monooxygenase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/FMN_dependent_monooxygenase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterococcus_Saccharolyticus.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:51 2026
+# [ok]

@@ -1,0 +1,26 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_068368594.1       -            448 flavin-dependent_oxidoreductase -            474  4.6e-196  649.6   0.1   1   1  1.8e-198  5.6e-196  649.3   0.1    10   445     2   441     1   447 0.98 LLM class flavin-dependent oxidoreductase [Kerstersia gyiorum]
+WP_134838904.1       -            451 flavin-dependent_oxidoreductase -            474  5.5e-186  616.3   0.0   1   1    2e-188  6.1e-186  616.2   0.0    10   448     2   444     1   451 0.96 LLM class flavin-dependent oxidoreductase [Kerstersia gyiorum]
+WP_240733340.1       -            450 flavin-dependent_oxidoreductase -            474    1e-173  575.9   0.1   1   1  3.7e-176  1.1e-173  575.7   0.1    10   451     5   445     1   450 0.96 LLM class flavin-dependent oxidoreductase [Kerstersia gyiorum]
+WP_130486333.1       -            428 flavin-dependent_oxidoreductase -            474  5.9e-173  573.4   0.0   1   1  2.2e-175  6.6e-173  573.2   0.0    14   443     2   427     1   428 0.98 LLM class flavin-dependent oxidoreductase [Kerstersia gyiorum]
+WP_240733268.1       -            445 flavin-dependent_oxidoreductase -            474  1.5e-166  552.2   0.0   1   1  5.6e-169  1.7e-166  552.1   0.0    11   444     6   444     1   445 0.95 LLM class flavin-dependent oxidoreductase [Kerstersia gyiorum]
+WP_134838812.1       -            476 flavin-dependent_oxidoreductase -            474  4.7e-166  550.6   0.0   1   1  1.8e-168  5.4e-166  550.4   0.0    11   446     5   453     1   474 0.94 LLM class flavin-dependent oxidoreductase [Kerstersia gyiorum]
+WP_127773234.1       -            471 flavin-dependent_oxidoreductase -            474  8.3e-163  539.9   1.5   1   1  3.3e-165    1e-162  539.6   1.5     9   449     1   454     1   469 0.94 LLM class flavin-dependent oxidoreductase [Kerstersia gyiorum]
+WP_134838810.1       -            492 flavin-dependent_oxidoreductase -            474  1.3e-143  476.6   0.0   1   1  5.7e-146  1.7e-143  476.2   0.0    11   447    11   460     4   488 0.92 NtaA/DmoA family FMN-dependent monooxygenase [Kerstersia gyiorum]
+WP_134838139.1       -            438 flavin-dependent_oxidoreductase -            474  2.9e-123  409.5   0.0   1   1    1e-125  3.2e-123  409.4   0.0    11   440     4   436     1   438 0.96 NtaA/DmoA family FMN-dependent monooxygenase [Kerstersia gyiorum]
+WP_068375046.1       -            385 flavin-dependent_oxidoreductase -            474   5.9e-33  111.7   0.1   1   2   1.1e-16   3.3e-14   49.9   0.0    84   174    61   149    40   153 0.92 FMNH2-dependent alkanesulfonate monooxygenase [Kerstersia gyiorum]
+WP_068375046.1       -            385 flavin-dependent_oxidoreductase -            474   5.9e-33  111.7   0.1   2   2   1.7e-18   5.2e-16   55.8   0.0   199   423   153   360   150   369 0.80 FMNH2-dependent alkanesulfonate monooxygenase [Kerstersia gyiorum]
+WP_068366930.1       -            384 flavin-dependent_oxidoreductase -            474   6.7e-24   81.9   3.4   1   2   4.4e-16   1.3e-13   47.9   0.2    83   172    63   153    33   158 0.83 LLM class flavin-dependent oxidoreductase [Kerstersia gyiorum]
+WP_068366930.1       -            384 flavin-dependent_oxidoreductase -            474   6.7e-24   81.9   3.4   2   2   6.3e-12   1.9e-09   34.2   0.5   199   413   162   363   154   379 0.75 LLM class flavin-dependent oxidoreductase [Kerstersia gyiorum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/flavin-dependent_oxidoreductase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Kerstersia_gyiorum.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Kerstersia_gyiorum__flavin-dependent_oxidoreductase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Kerstersia_gyiorum__flavin-dependent_oxidoreductase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/flavin-dependent_oxidoreductase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Kerstersia_gyiorum.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:40:08 2026
+# [ok]

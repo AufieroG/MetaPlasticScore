@@ -1,0 +1,10 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_150176682.1       -            321 Esterase             -            359   2.4e-07   27.3   0.0   1   1   4.9e-10     3e-07   27.0   0.0    80   174    92   192    43   309 0.68 alpha/beta hydrolase [Weissella paramesenteroides]
+WP_150190998.1       -            265 Esterase             -            359   3.9e-05   20.0   0.0   1   1     8e-08     5e-05   19.7   0.0    82   180    20   130     8   236 0.68 alpha/beta fold hydrolase [Weissella paramesenteroides]
+WP_140837269.1       -            243 Esterase             -            359   5.6e-05   19.5   0.0   1   1   9.9e-08   6.1e-05   19.4   0.0    68   181    15   139     1   185 0.82 alpha/beta hydrolase [Weissella paramesenteroides]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

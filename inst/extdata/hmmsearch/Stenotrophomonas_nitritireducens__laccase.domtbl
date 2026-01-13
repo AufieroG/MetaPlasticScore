@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_013391820.1       -            634 laccase              -            716   2.2e-38  129.7   1.9   1   2   8.2e-39   9.5e-36  121.0   0.1   108   345    78   338    65   352 0.80 MULTISPECIES: copper resistance system multicopper oxidase [Pseudomonadota]
+WP_013391820.1       -            634 laccase              -            716   2.2e-38  129.7   1.9   2   2    0.0002      0.24    7.3   0.3   127   205   555   633   547   634 0.68 MULTISPECIES: copper resistance system multicopper oxidase [Pseudomonadota]
+WP_273082874.1       -            585 laccase              -            716   1.3e-37  127.2   1.1   1   3   4.5e-35   5.2e-32  108.6   0.0    99   344    66   335    60   344 0.82 copper resistance system multicopper oxidase [Stenotrophomonas nitritireducens]
+WP_273082874.1       -            585 laccase              -            716   1.3e-37  127.2   1.1   2   3      0.25   2.9e+02   -2.9   0.1   526   547   506   524   474   526 0.72 copper resistance system multicopper oxidase [Stenotrophomonas nitritireducens]
+WP_273082874.1       -            585 laccase              -            716   1.3e-37  127.2   1.1   3   3   1.7e-06    0.0019   14.2   0.0   585   624   539   578   535   583 0.93 copper resistance system multicopper oxidase [Stenotrophomonas nitritireducens]
+WP_273081163.1       -            357 laccase              -            716   1.6e-08   31.0   0.1   1   3    0.0018         2    4.2   0.0   100   138    75   113    67   125 0.88 copper-containing nitrite reductase [Stenotrophomonas nitritireducens]
+WP_273081163.1       -            357 laccase              -            716   1.6e-08   31.0   0.1   2   3   1.4e-05     0.016   11.2   0.0   597   648   142   197   131   280 0.80 copper-containing nitrite reductase [Stenotrophomonas nitritireducens]
+WP_273081163.1       -            357 laccase              -            716   1.6e-08   31.0   0.1   3   3   6.4e-06    0.0074   12.3   0.0   587   630   285   329   279   336 0.81 copper-containing nitrite reductase [Stenotrophomonas nitritireducens]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

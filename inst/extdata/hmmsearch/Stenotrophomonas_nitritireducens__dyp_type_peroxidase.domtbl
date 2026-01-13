@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_273080219.1       -            308 dyp_type_peroxidase  -            467  4.8e-108  359.7   0.9   1   1  3.3e-111  5.7e-108  359.4   0.9   100   377     1   303     1   307 0.93 Dyp-type peroxidase [Stenotrophomonas nitritireducens]
+WP_273080119.1       -           1019 dyp_type_peroxidase  -            467    0.0021   14.7   1.2   1   1   3.3e-06    0.0058   13.2   1.2   178   232   760   827   644   849 0.65 efflux RND transporter permease subunit [Stenotrophomonas nitritireducens]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,8 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_275575449.1       -            448 Cutinase             -            267    0.0024   16.0   0.0   1   1   1.6e-06    0.0067   14.5   0.0    98   177   281   361   215   371 0.82 AcvB/VirJ family lysyl-phosphatidylglycerol hydrolase [Stenotrophomonas maltophilia]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

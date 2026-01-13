@@ -1,0 +1,10 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_080057994.1       -            764 manganese_peroxidase -            377   5.6e-16   56.9   0.0   1   3   1.9e-07    0.0013   16.3   0.0    72   165   101   194    93   197 0.86 catalase/peroxidase HPI [Spirosoma aerolatum]
+WP_080057994.1       -            764 manganese_peroxidase -            377   5.6e-16   56.9   0.0   2   3   2.2e-09   1.4e-05   22.7   0.0   169   296   262   440   252   445 0.82 catalase/peroxidase HPI [Spirosoma aerolatum]
+WP_080057994.1       -            764 manganese_peroxidase -            377   5.6e-16   56.9   0.0   3   3     1e-06    0.0069   13.9   0.1    71   165   496   603   479   612 0.65 catalase/peroxidase HPI [Spirosoma aerolatum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,12 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_164144322.1       -            447 flavin-dependent_oxidoreductase -            474  8.6e-173  573.1   0.0   1   1    1e-175    1e-172  572.9   0.0    11   451     5   441     1   446 0.96 LLM class flavin-dependent oxidoreductase [Stenotrophomonas maltophilia]
+WP_164144731.1       -            311 flavin-dependent_oxidoreductase -            474   1.2e-09   35.2   0.0   1   1   1.7e-12   1.7e-09   34.6   0.0    37   151    27   139    20   151 0.84 TIGR03571 family LLM class oxidoreductase [Stenotrophomonas maltophilia]
+WP_164143800.1       -            328 flavin-dependent_oxidoreductase -            474   2.9e-05   20.7   0.0   1   2   1.4e-07   0.00014   18.4   0.0    46   191    17   155     6   160 0.77 TIGR03885 family FMN-dependent LLM class oxidoreductase [Stenotrophomonas maltophilia]
+WP_164143800.1       -            328 flavin-dependent_oxidoreductase -            474   2.9e-05   20.7   0.0   2   2      0.08        82   -0.6   0.0   406   420   305   319   293   322 0.85 TIGR03885 family FMN-dependent LLM class oxidoreductase [Stenotrophomonas maltophilia]
+WP_155029629.1       -            315 flavin-dependent_oxidoreductase -            474    0.0032   13.9   0.0   1   1   4.5e-06    0.0046   13.5   0.0    42   107    44   104    30   158 0.80 TIGR03571 family LLM class oxidoreductase [Stenotrophomonas maltophilia]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

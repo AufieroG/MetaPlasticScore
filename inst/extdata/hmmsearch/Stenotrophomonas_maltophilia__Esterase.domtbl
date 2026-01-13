@@ -1,0 +1,25 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_019660747.1       -            219 Esterase             -            359   1.2e-13   49.2   0.0   1   1   5.1e-16   1.5e-13   48.8   0.0    80   242    10   207     3   213 0.83 MULTISPECIES: alpha/beta hydrolase [Stenotrophomonas maltophilia group]
+WP_164143785.1       -            524 Esterase             -            359     5e-07   27.4   0.0   1   1   2.4e-09     7e-07   26.9   0.0   103   217    72   233    29   321 0.71 alpha/beta fold hydrolase [Stenotrophomonas maltophilia]
+WP_134730991.1       -            359 Esterase             -            359   5.8e-06   23.9   1.1   1   1   2.7e-08     8e-06   23.4   1.1    30   227    15   302     1   348 0.69 alpha/beta hydrolase [Stenotrophomonas maltophilia]
+WP_164144184.1       -            270 Esterase             -            359   3.7e-05   21.2   0.1   1   1   8.7e-07   0.00026   18.5   0.1   191   249   189   257    43   269 0.71 alpha/beta hydrolase [Stenotrophomonas maltophilia]
+WP_164145206.1       -            372 Esterase             -            359   0.00043   17.7   0.0   1   1   2.2e-06   0.00065   17.1   0.0    71   181   103   218    46   344 0.79 alpha/beta fold hydrolase [Stenotrophomonas maltophilia]
+WP_164144631.1       -            278 Esterase             -            359   0.00062   17.2   0.2   1   2   4.2e-06    0.0012   16.2   0.1    89   174    18   106    14   129 0.76 alpha/beta fold hydrolase [Stenotrophomonas maltophilia]
+WP_164144631.1       -            278 Esterase             -            359   0.00062   17.2   0.2   2   2       2.2   6.4e+02   -2.6   0.0   180   223   192   225   159   245 0.59 alpha/beta fold hydrolase [Stenotrophomonas maltophilia]
+WP_275575449.1       -            448 Esterase             -            359   0.00079   16.9   0.1   1   2      0.52   1.5e+02   -0.5   0.0    47    68    32    71     8   118 0.66 AcvB/VirJ family lysyl-phosphatidylglycerol hydrolase [Stenotrophomonas maltophilia]
+WP_275575449.1       -            448 Esterase             -            359   0.00079   16.9   0.1   2   2   1.1e-05    0.0032   14.8   0.1    78   167   258   344   184   368 0.77 AcvB/VirJ family lysyl-phosphatidylglycerol hydrolase [Stenotrophomonas maltophilia]
+WP_164145384.1       -            265 Esterase             -            359    0.0019   15.6   0.0   1   1   8.7e-06    0.0026   15.2   0.0   132   222   121   224    49   261 0.67 prolyl oligopeptidase family serine peptidase [Stenotrophomonas maltophilia]
+WP_019661775.1       -            284 Esterase             -            359    0.0031   14.9   0.0   1   1   1.5e-05    0.0045   14.4   0.0    89   174    29   115    21   139 0.75 MULTISPECIES: alpha/beta hydrolase [Stenotrophomonas maltophilia group]
+WP_021203894.1       -            698 Esterase             -            359    0.0098   13.3   0.0   1   1   5.6e-05     0.017   12.5   0.0   143   192   528   615   482   687 0.71 prolyl oligopeptidase family serine peptidase [Stenotrophomonas maltophilia]
+WP_164145440.1       -            331 Esterase             -            359      0.01   13.2   0.0   1   1   4.3e-05     0.013   12.9   0.0    81   184    58   165    32   247 0.79 alpha/beta hydrolase [Stenotrophomonas maltophilia]
+WP_111098191.1       -            820 Esterase             -            359     0.013   12.9   0.1   1   2      0.24        70    0.6   0.0   134   216   225   317   176   384 0.75 prolyl oligopeptidase family serine peptidase [Stenotrophomonas maltophilia]
+WP_111098191.1       -            820 Esterase             -            359     0.013   12.9   0.1   2   2   0.00033     0.096   10.0   0.0   123   207   655   758   577   820 0.62 prolyl oligopeptidase family serine peptidase [Stenotrophomonas maltophilia]
+WP_164144052.1       -            508 Esterase             -            359     0.019   12.3   0.0   1   2    0.0086       2.5    5.3   0.0   136   174   192   230   162   266 0.81 alpha/beta fold hydrolase [Stenotrophomonas maltophilia]
+WP_164144052.1       -            508 Esterase             -            359     0.019   12.3   0.0   2   2     0.014       4.2    4.6   0.0   174   229   396   449   385   473 0.71 alpha/beta fold hydrolase [Stenotrophomonas maltophilia]
+WP_164145090.1       -            670 Esterase             -            359     0.027   11.8   0.0   1   1   0.00018     0.054   10.8   0.0    90   169   388   476   370   517 0.84 alpha/beta fold hydrolase [Stenotrophomonas maltophilia]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

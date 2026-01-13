@@ -185,7 +185,6 @@ In the example datasets:
 ```r
 # locate example data loaded with the package
 extdata_path <- system.file("extdata", package = "MetaPlasticScore")
-expect_true(dir.exists(extdata_path))
 
 hmm_dir <- file.path(extdata_path, "hmmsearch")
 abundance_csv <- file.path(extdata_path, "Abundance_simulated.csv")

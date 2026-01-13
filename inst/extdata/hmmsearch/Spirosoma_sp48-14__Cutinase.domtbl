@@ -1,0 +1,10 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_080054963.1       -            242 Cutinase             -            267   6.6e-05   21.8   0.0   1   1   2.9e-08   9.4e-05   21.3   0.0   133   224   109   208   104   238 0.81 alpha/beta hydrolase [Spirosoma aerolatum]
+WP_080057548.1       -            336 Cutinase             -            267     0.016   14.0   0.0   1   2   9.4e-06     0.031   13.0   0.0   126   182   129   189    69   237 0.78 YheT family hydrolase [Spirosoma aerolatum]
+WP_080057548.1       -            336 Cutinase             -            267     0.016   14.0   0.0   2   2      0.51   1.7e+03   -2.5   0.0   189   241   268   320   263   334 0.61 YheT family hydrolase [Spirosoma aerolatum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

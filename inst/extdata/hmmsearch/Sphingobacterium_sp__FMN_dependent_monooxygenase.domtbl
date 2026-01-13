@@ -1,0 +1,8 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_306473153.1       -            344 FMN_dependent_monooxygenase -            552   1.1e-05   22.0   0.0   1   1   4.4e-09   1.7e-05   21.4   0.0    94   164    41   107     8   108 0.81 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Sphingobacterium]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

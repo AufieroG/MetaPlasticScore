@@ -1,0 +1,10 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_028071015.1       -            346 FMN_dependent_monooxygenase -            552   9.6e-06   22.6   0.0   1   1   6.7e-09   1.7e-05   21.8   0.0    89   164    35   106    11   107 0.81 Atu2307/SP_0267 family LLM class monooxygenase [Sphingobacterium thalpophilum]
+WP_028072262.1       -            340 FMN_dependent_monooxygenase -            552    0.0041   13.9   0.1   1   2   3.5e-06    0.0088   12.8   0.1    67   164    11   105     2   108 0.79 LLM class flavin-dependent oxidoreductase [Sphingobacterium thalpophilum]
+WP_028072262.1       -            340 FMN_dependent_monooxygenase -            552    0.0041   13.9   0.1   2   2       0.3   7.6e+02   -3.5   0.0   448   475   168   198   168   251 0.49 LLM class flavin-dependent oxidoreductase [Sphingobacterium thalpophilum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

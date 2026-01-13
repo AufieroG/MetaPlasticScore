@@ -1,0 +1,8 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_070928169.1       -            214 alkane_hydroxylase   -            450     0.051   10.3   0.1   1   1   1.5e-05     0.065    9.9   0.1    28   132    55   156    33   165 0.77 MULTISPECIES: YchE family NAAT transporter [Providencia]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

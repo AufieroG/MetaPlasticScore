@@ -1,0 +1,13 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_080056236.1       -            360 alkane_1_monooxygenase -            406   0.00043   17.7  13.2   1   2   7.2e-07    0.0016   15.9   4.9    97   182    41   129    26   134 0.70 fatty acid desaturase family protein [Spirosoma aerolatum]
+WP_080056236.1       -            360 alkane_1_monooxygenase -            406   0.00043   17.7  13.2   2   2   0.00038      0.83    6.9   1.2    30   148   209   332   171   335 0.59 fatty acid desaturase family protein [Spirosoma aerolatum]
+WP_080060129.1       -            345 alkane_1_monooxygenase -            406    0.0026   15.2  13.4   1   3   2.2e-05     0.049   11.0   2.3    98   170    39   115    17   132 0.70 fatty acid desaturase [Spirosoma aerolatum]
+WP_080060129.1       -            345 alkane_1_monooxygenase -            406    0.0026   15.2  13.4   2   3   0.00012      0.25    8.6   1.6   236   271   184   219   168   232 0.85 fatty acid desaturase [Spirosoma aerolatum]
+WP_080060129.1       -            345 alkane_1_monooxygenase -            406    0.0026   15.2  13.4   3   3     0.019        41    1.3   0.0   315   342   253   281   247   338 0.78 fatty acid desaturase [Spirosoma aerolatum]
+WP_020600213.1       -             49 alkane_1_monooxygenase -            406     0.062   10.6   0.9   1   1   2.7e-05     0.059   10.7   0.9    24    64     7    47     1    49 0.66 MULTISPECIES: DUF5989 family protein [Spirosoma]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

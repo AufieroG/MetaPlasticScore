@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_140186294.1       -            259 lignin_peroxidase    -            483   4.1e-07   27.2   0.0   1   1   2.5e-10   5.2e-07   26.9   0.0    17   280     6   252     2   255 0.88 MULTISPECIES: pimeloyl-ACP methyl ester esterase BioH [Providencia]
+WP_070927984.1       -            297 lignin_peroxidase    -            483   1.5e-05   22.1   0.0   1   1     9e-09   1.9e-05   21.7   0.0   193   261   203   270    93   275 0.83 alpha/beta fold hydrolase [Providencia stuartii]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

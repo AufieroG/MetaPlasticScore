@@ -1,0 +1,8 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_099372832.1       -             67 alkane_monooxygenase -            375     0.012   12.3   0.1   1   1   3.1e-06     0.012   12.3   0.1    18    64     7    53     1    66 0.79 MULTISPECIES: hypothetical protein [Sphingobacterium]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

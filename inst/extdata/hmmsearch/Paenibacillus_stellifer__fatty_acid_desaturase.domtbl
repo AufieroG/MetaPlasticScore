@@ -1,0 +1,9 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_245625117.1       -            152 fatty_acid_desaturase -            419     0.024   11.6   0.4   1   1   1.5e-05     0.037   11.0   0.2    29    89    15    77     4    88 0.83 phage holin family protein [Paenibacillus stellifer]
+WP_038696628.1       -            888 fatty_acid_desaturase -            419     0.033   11.1   0.4   1   1   2.3e-05     0.058   10.3   0.4   229   275   154   200   135   211 0.74 FtsK/SpoIIIE family DNA translocase [Paenibacillus stellifer]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

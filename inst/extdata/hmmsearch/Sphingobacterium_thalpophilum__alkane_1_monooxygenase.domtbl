@@ -1,0 +1,11 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_051607042.1       -            495 alkane_1_monooxygenase -            406     0.024   11.6   0.3   1   2   2.1e-05     0.051   10.5   0.0   216   254   176   214   170   222 0.92 TPM domain-containing protein [Sphingobacterium thalpophilum]
+WP_051607042.1       -            495 alkane_1_monooxygenase -            406     0.024   11.6   0.3   2   2      0.19   4.7e+02   -2.5   0.1   105   137   245   280   238   306 0.59 TPM domain-containing protein [Sphingobacterium thalpophilum]
+WP_037532426.1       -            191 alkane_1_monooxygenase -            406     0.029   11.3   3.0   1   2   6.1e-05      0.15    9.0   0.6    95   150    20    78     2    84 0.69 DUF3267 domain-containing protein [Sphingobacterium thalpophilum]
+WP_037532426.1       -            191 alkane_1_monooxygenase -            406     0.029   11.3   3.0   2   2    0.0039       9.6    3.0   0.1    31    80   112   171    80   189 0.50 DUF3267 domain-containing protein [Sphingobacterium thalpophilum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

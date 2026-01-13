@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_038697169.1       -            485 Esterase             -            359   1.4e-09   36.1   0.0   1   1   5.5e-12   2.3e-09   35.3   0.0    23   174    71   244    56   333 0.78 carboxylesterase/lipase family protein [Paenibacillus stellifer]
+WP_038694383.1       -            486 Esterase             -            359   4.8e-09   34.3   0.0   1   1   1.6e-11   6.8e-09   33.8   0.0    47   143    97   223    57   237 0.88 carboxylesterase/lipase family protein [Paenibacillus stellifer]
+WP_038694625.1       -            318 Esterase             -            359   1.5e-08   32.7   0.0   1   1   4.3e-11   1.8e-08   32.4   0.0    87   179    84   204    70   288 0.86 acetylxylan esterase [Paenibacillus stellifer]
+WP_052098144.1       -            410 Esterase             -            359   4.4e-06   24.6   0.0   1   1   1.4e-08     6e-06   24.1   0.0    96   249   110   275    59   288 0.79 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_038693592.1       -            276 Esterase             -            359   4.8e-06   24.5   0.0   1   1   1.3e-08   5.6e-06   24.2   0.0    83   215    34   216     7   266 0.74 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_038697405.1       -            319 Esterase             -            359   1.1e-05   23.3   0.0   1   1   2.9e-08   1.2e-05   23.1   0.0    76   177    75   203    42   310 0.84 acetylxylan esterase [Paenibacillus stellifer]
+WP_156995917.1       -            274 Esterase             -            359   2.4e-05   22.2   0.0   1   2   1.1e-07   4.5e-05   21.3   0.0    91   182    31   122    18   199 0.66 alpha/beta fold hydrolase [Paenibacillus stellifer]
+WP_156995917.1       -            274 Esterase             -            359   2.4e-05   22.2   0.0   2   2       1.6   6.8e+02   -2.4   0.0   173   191   232   253   224   264 0.79 alpha/beta fold hydrolase [Paenibacillus stellifer]
+WP_038698717.1       -            263 Esterase             -            359     5e-05   21.1   0.0   1   1   1.8e-07   7.5e-05   20.5   0.0    85   190    19   128     9   249 0.76 alpha/beta fold hydrolase [Paenibacillus stellifer]
+WP_038693466.1       -            343 Esterase             -            359   7.1e-05   20.6   0.0   1   1     2e-07   8.5e-05   20.3   0.0    89   254   112   331    82   342 0.68 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_052098135.1       -            767 Esterase             -            359    0.0003   18.5   0.0   1   1   1.3e-06   0.00053   17.7   0.0   101   226   306   460   273   494 0.78 chlorophyllase/cutinase-like alpha/beta fold protein [Paenibacillus stellifer]
+WP_038694583.1       -            220 Esterase             -            359    0.0013   16.4   0.0   1   1   3.7e-06    0.0016   16.2   0.0    74   217     8   179     3   206 0.80 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_038699728.1       -            285 Esterase             -            359    0.0035   15.0   0.0   1   1   9.8e-06    0.0041   14.8   0.0    91   174    50   132    31   204 0.84 alpha/beta fold hydrolase [Paenibacillus stellifer]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

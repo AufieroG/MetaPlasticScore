@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_042131022.1       -            111 alkane_hydroxylase   -            450    0.0066   13.7   0.2   1   1   2.6e-06    0.0077   13.4   0.2   231   270    53    92    36    99 0.86 MULTISPECIES: YxlC family protein [Paenibacillus]
+WP_042127500.1       -            222 alkane_hydroxylase   -            450     0.011   13.0   2.4   1   1   4.5e-06     0.013   12.7   2.4    27   118   100   189    72   215 0.62 MULTISPECIES: ABC transporter permease subunit [unclassified Paenibacillus]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

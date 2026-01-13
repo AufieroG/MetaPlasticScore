@@ -1,0 +1,10 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_028068601.1       -            759 manganese_peroxidase -            377   2.6e-12   44.5   0.0   1   3   6.2e-07    0.0031   14.6   0.0    72   165    97   190    91   193 0.87 catalase/peroxidase HPI [Sphingobacterium thalpophilum]
+WP_028068601.1       -            759 manganese_peroxidase -            377   2.6e-12   44.5   0.0   2   3   7.8e-07    0.0039   14.3   0.0   169   296   258   434   249   438 0.82 catalase/peroxidase HPI [Sphingobacterium thalpophilum]
+WP_028068601.1       -            759 manganese_peroxidase -            377   2.6e-12   44.5   0.0   3   3   6.9e-06     0.034   11.2   0.0    77   165   496   597   482   599 0.71 catalase/peroxidase HPI [Sphingobacterium thalpophilum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

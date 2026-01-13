@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_051606953.1       -            440 Cutinase             -            267     0.036   12.4   0.0   1   1   2.2e-05     0.055   11.8   0.0    92   182   304   400   276   423 0.76 M16 family metallopeptidase [Sphingobacterium thalpophilum]
+WP_028071464.1       -            302 Cutinase             -            267     0.039   12.3   0.0   1   1   2.1e-05     0.053   11.9   0.0   134   222   110   197   101   224 0.64 alpha/beta fold hydrolase [Sphingobacterium thalpophilum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,12 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_042131022.1       -            111 alkane_monooxygenase -            375    0.0033   14.8   0.3   1   1   1.9e-06    0.0038   14.6   0.3   221   264    52    95    34   100 0.83 MULTISPECIES: YxlC family protein [Paenibacillus]
+WP_042128068.1       -            212 alkane_monooxygenase -            375     0.013   12.8  11.5   1   2   2.5e-06     0.005   14.2   8.4     9   127     6   126     1   157 0.78 MULTISPECIES: ABC-2 transporter permease [Paenibacillus]
+WP_042128068.1       -            212 alkane_monooxygenase -            375     0.013   12.8  11.5   2   2     0.071   1.4e+02   -0.4   1.6    28    99   128   200   120   211 0.40 MULTISPECIES: ABC-2 transporter permease [Paenibacillus]
+WP_042127500.1       -            222 alkane_monooxygenase -            375     0.061   10.6   9.3   1   2      0.21   4.1e+02   -2.0   0.1   212   258    16    62     8    66 0.72 MULTISPECIES: ABC transporter permease subunit [unclassified Paenibacillus]
+WP_042127500.1       -            222 alkane_monooxygenase -            375     0.061   10.6   9.3   2   2   5.1e-06      0.01   13.2   5.4    28   111   111   198    87   209 0.69 MULTISPECIES: ABC transporter permease subunit [unclassified Paenibacillus]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

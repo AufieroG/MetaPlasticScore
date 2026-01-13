@@ -1,0 +1,29 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_038693592.1       -            276 PETase               -            291   3.5e-16   58.1   0.0   1   1     2e-18   4.7e-16   57.7   0.0    63   251    16   263     7   275 0.85 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_052098135.1       -            767 PETase               -            291   4.1e-14   51.3   0.0   1   1   3.8e-16     9e-14   50.2   0.0    59   235   264   482   216   488 0.75 chlorophyllase/cutinase-like alpha/beta fold protein [Paenibacillus stellifer]
+WP_052098144.1       -            410 PETase               -            291   5.4e-11   41.0   0.0   1   1   3.1e-13   7.5e-11   40.6   0.0    62   237    78   275     4   294 0.71 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_038694625.1       -            318 PETase               -            291     3e-10   38.6   0.0   1   1   3.3e-12     8e-10   37.2   0.0    58   223    60   293    52   313 0.75 acetylxylan esterase [Paenibacillus stellifer]
+WP_038698352.1       -            293 PETase               -            291   6.7e-08   30.9   0.0   1   1   7.9e-10   1.9e-07   29.4   0.0   138   251   111   287    95   290 0.79 alpha/beta fold hydrolase [Paenibacillus stellifer]
+WP_038700013.1       -            318 PETase               -            291   2.8e-07   28.9   0.0   1   1   1.8e-09   4.4e-07   28.2   0.0    57   251    76   312    15   317 0.70 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_038697405.1       -            319 PETase               -            291   1.1e-06   26.9   0.0   1   1   7.3e-09   1.8e-06   26.2   0.0    75   182    82   212    30   296 0.68 acetylxylan esterase [Paenibacillus stellifer]
+WP_038695015.1       -            317 PETase               -            291   2.2e-06   25.9   0.0   1   1   1.3e-08   3.2e-06   25.4   0.0    23   169    17   180     2   316 0.59 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_038694383.1       -            486 PETase               -            291   2.2e-05   22.7   0.2   1   1   1.7e-07     4e-05   21.8   0.2    62   158    80   198    59   228 0.74 carboxylesterase/lipase family protein [Paenibacillus stellifer]
+WP_038698717.1       -            263 PETase               -            291   4.2e-05   21.7   0.0   1   1   5.3e-07   0.00013   20.1   0.0    73   238    16   247     6   262 0.62 alpha/beta fold hydrolase [Paenibacillus stellifer]
+WP_052098815.1       -            226 PETase               -            291   5.4e-05   21.4   0.0   1   1   2.7e-07   6.5e-05   21.1   0.0   142   250    68   218     5   224 0.73 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_038694583.1       -            220 PETase               -            291   0.00025   19.2   0.0   1   1   1.3e-06   0.00032   18.8   0.0   123   239    79   201     7   208 0.70 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_084065235.1       -            339 PETase               -            291   0.00032   18.8   0.2   1   2    0.0069       1.6    6.6   0.0    38   112    23    94     3   122 0.82 alpha/beta fold hydrolase [Paenibacillus stellifer]
+WP_084065235.1       -            339 PETase               -            291   0.00032   18.8   0.2   2   2   0.00065      0.16   10.0   0.1   183   254   255   327   205   335 0.81 alpha/beta fold hydrolase [Paenibacillus stellifer]
+WP_038693651.1       -            251 PETase               -            291   0.00039   18.5   0.0   1   1   2.2e-06   0.00053   18.1   0.0    48   178    15   149     6   193 0.72 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_245625111.1       -            237 PETase               -            291    0.0004   18.5   0.0   1   1   1.4e-05    0.0033   15.5   0.0   149   250   118   234    50   236 0.85 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_038693466.1       -            343 PETase               -            291   0.00053   18.1   0.0   1   1   3.2e-06   0.00077   17.6   0.0    66   204   102   283    82   332 0.60 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_038697169.1       -            485 PETase               -            291    0.0011   17.0   0.0   1   1   7.6e-06    0.0018   16.3   0.0    63   160    86   197    43   224 0.75 carboxylesterase/lipase family protein [Paenibacillus stellifer]
+WP_218917568.1       -            269 PETase               -            291    0.0066   14.5   0.0   1   1   3.6e-05    0.0085   14.1   0.0   140   176    94   130    61   259 0.75 alpha/beta fold hydrolase [Paenibacillus stellifer]
+WP_281176748.1       -            160 PETase               -            291    0.0067   14.5   0.0   1   1   3.2e-05    0.0077   14.3   0.0   149   233    29   139     9   154 0.74 alpha/beta hydrolase [Paenibacillus stellifer]
+WP_156995917.1       -            274 PETase               -            291     0.013   13.5   0.2   1   1   0.00011     0.027   12.5   0.2   148   175    93   120    81   260 0.75 alpha/beta fold hydrolase [Paenibacillus stellifer]
+WP_038693451.1       -            274 PETase               -            291     0.032   12.3   0.0   1   1   0.00017     0.041   11.9   0.0    76   201    29   216    21   271 0.69 alpha/beta hydrolase family protein [Paenibacillus stellifer]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

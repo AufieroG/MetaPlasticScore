@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_052098723.1       -            440 dyp_type_peroxidase  -            467   1.5e-72  243.2   4.7   1   1   7.4e-76   1.9e-72  242.9   4.7   103   376    56   427     4   439 0.76 iron uptake transporter deferrochelatase/peroxidase subunit [Paenibacillus stellifer]
+WP_038694378.1       -            255 dyp_type_peroxidase  -            467    0.0083   13.2   0.3   1   1     5e-06     0.013   12.6   0.3   154   263    19   118     5   120 0.60 SDR family NAD(P)-dependent oxidoreductase [Paenibacillus stellifer]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

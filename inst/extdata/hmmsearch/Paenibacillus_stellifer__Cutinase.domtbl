@@ -1,0 +1,8 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_038693592.1       -            276 Cutinase             -            267    0.0046   15.4   0.0   1   1   1.2e-06    0.0062   14.9   0.0   124   190    91   157    49   177 0.80 alpha/beta hydrolase [Paenibacillus stellifer]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

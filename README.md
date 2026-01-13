@@ -45,11 +45,12 @@ The pipeline requires a strict directory structure and file naming convention to
 PlasticScore requires output files from `hmmsearch` (HMMER suite) generated using enzyme-specific HMM profiles.
 
 - **Directory:** Place all HMMER output files in a single directory (e.g. `hmmsearch/`).  
-- **File formats:** Both `.tbl` (table) and `.domtbl` (domain table) files are required.  
+- **File formats:** `.tbl` (table) and/or `.domtbl` (domain table) files are required.  
 - **Naming convention:** Files must be named as:
 
 ```
 <taxon_id>__<enzyme_id>.tbl
+and/or
 <taxon_id>__<enzyme_id>.domtbl
 ```
 

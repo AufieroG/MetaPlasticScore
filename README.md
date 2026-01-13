@@ -78,7 +78,7 @@ These HMM profiles were built from protein sequences identified using:
 > *Victor Gambarini, Olga Pantos, Joanne M Kingsbury, Louise Weaver, Kim M Handley, Gavin Lear, PlasticDB: a database of microorganisms and proteins linked to plastic biodegradation. Database*
 > [https://doi.org/10.1093/database/baac008](https://doi.org/10.1093/database/baac008)
 
-and are based on the experimental framework and annotations described in:
+and annotations described in:
 
 > *De Filippis, F., Bonelli, M., Bruno, D. et al. Plastics shape the black soldier fly larvae gut microbiome and select for biodegrading functions. Microbiome 11, 205 (2023).*
 > [https://doi.org/10.1186/s40168-023-01649-0](https://doi.org/10.1186/s40168-023-01649-0)

@@ -32,6 +32,7 @@ BiocManager::install("ComplexHeatmap")
 ```r
 # Replace USERNAME with the repository owner
 devtools::install_github("AufieroG/MetaPlasticScore")
+library("MetaPlasticScore")
 ```
 
 ---

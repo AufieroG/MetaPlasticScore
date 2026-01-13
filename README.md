@@ -198,18 +198,41 @@ df <- run_PlasticScore(
 ## 🧾 Main Output Objects
 
 ```r
-hits_filt          <- df$hits_filt
-plastic_score      <- df$plastic_score
-enzyme_load        <- df$enzyme_load
-taxon_enzyme_mat   <- df$taxon_enzyme_mat
-taxon_stats        <- df$taxon_stats
-abundance          <- df$abundance
-metadata_groups    <- df$metadata_groups
-metadata_taxa      <- df$metadata_taxa
-enzyme_by_sample   <- df$enzyme_by_sample
+# Filtered HMMER hits retained after coverage and domain-bias filtering
+hits_filt <- df$hits_filt
+
+# PlasticScore computed for each sample
+plastic_score <- df$plastic_score
+
+# Enzyme load per taxon (number or abundance-weighted count of plastic-degrading enzymes)
+enzyme_load <- df$enzyme_load
+
+# Taxon × enzyme matrix (presence / counts / abundance-weighted values)
+taxon_enzyme_mat <- df$taxon_enzyme_mat
+
+# Per-taxon summary statistics and contribution metrics
+taxon_stats <- df$taxon_stats
+
+# Abundance table actually used in the analysis (raw or normalized)
+abundance <- df$abundance
+
+# Sample metadata (e.g. experimental groups such as STD and PE)
+metadata_groups <- df$metadata_groups
+
+# Taxonomic metadata used for aggregation (e.g. Phylum)
+metadata_taxa <- df$metadata_taxa
+
+# Enzyme abundance aggregated at the sample level
+enzyme_by_sample <- df$enzyme_by_sample
+
+# Contribution of each phylum to the PlasticScore or enzyme load
 contrib_phylum_mat <- df$contrib_phylum_mat
-phylum_enzyme_mat  <- df$phylum_enzyme_mat
-df_phylum_enzyme   <- df$df_phylum_enzyme
+
+# Phylum × enzyme matrix (enzyme profiles aggregated by phylum)
+phylum_enzyme_mat <- df$phylum_enzyme_mat
+
+# Long-format table of enzyme abundances grouped by phylum (tidy format)
+df_phylum_enzyme <- df$df_phylum_enzyme
 ```
 
 ---

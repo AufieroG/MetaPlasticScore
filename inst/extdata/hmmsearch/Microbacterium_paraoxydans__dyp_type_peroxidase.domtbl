@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_060923169.1       -            408 dyp_type_peroxidase  -            467   5.9e-86  286.8  17.2   1   1   4.5e-89   7.6e-86  286.4  17.2   105   377    62   396     3   408 0.82 Dyp-type peroxidase [Microbacterium paraoxydans]
+WP_167627869.1       -            420 dyp_type_peroxidase  -            467   2.3e-71  238.7  10.4   1   1   1.7e-74   2.8e-71  238.4  10.4   105   376    60   406    12   419 0.80 iron uptake transporter deferrochelatase/peroxidase subunit [Microbacterium paraoxydans]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

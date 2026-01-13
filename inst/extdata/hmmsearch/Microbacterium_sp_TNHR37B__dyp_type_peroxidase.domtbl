@@ -1,0 +1,8 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_067163733.1       -            454 dyp_type_peroxidase  -            467   3.2e-68  228.2  11.6   1   1   1.2e-71     4e-68  227.9  11.6   104   375    86   439    15   451 0.79 iron uptake transporter deferrochelatase/peroxidase subunit [Microbacterium sp. TNHR37B]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,21 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_006469883.1       -            449 FMN_dependent_monooxygenase -            552  1.5e-169  563.1   0.1   1   1  3.4e-172  1.6e-169  563.0   0.1    48   473     1   437     1   449 0.92 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_006471486.1       -            421 FMN_dependent_monooxygenase -            552  2.3e-155  516.3   8.4   1   2     1e-66   4.8e-64  214.8   0.4    48   206     1   165     1   168 0.96 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_006471486.1       -            421 FMN_dependent_monooxygenase -            552  2.3e-155  516.3   8.4   2   2   3.5e-94   1.7e-91  305.5   2.5   231   466   169   420   165   421 0.91 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_006469929.1       -            434 FMN_dependent_monooxygenase -            552    3e-154  512.6   4.9   1   1    7e-157  3.4e-154  512.4   4.9    48   463     1   432     1   434 0.94 MULTISPECIES: NtaA/DmoA family FMN-dependent monooxygenase [Brucella]
+WP_006469870.1       -            439 FMN_dependent_monooxygenase -            552  1.1e-140  467.9   1.2   1   1  2.4e-143  1.2e-140  467.7   1.2    69   467    21   427     1   439 0.89 MULTISPECIES: NtaA/DmoA family FMN-dependent monooxygenase [Brucella]
+WP_235691693.1       -            320 FMN_dependent_monooxygenase -            552   3.4e-40  136.1   1.0   1   2   3.5e-38   1.7e-35  120.6   0.4    82   290    18   227     7   234 0.83 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_235691693.1       -            320 FMN_dependent_monooxygenase -            552   3.4e-40  136.1   1.0   2   2   6.3e-06    0.0031   14.1   0.0   402   468   249   312   247   320 0.77 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_006469878.1       -            342 FMN_dependent_monooxygenase -            552   2.7e-08   30.8   0.5   1   2   9.7e-11   4.7e-08   30.0   0.1   115   164    54   104    26   117 0.75 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_006469878.1       -            342 FMN_dependent_monooxygenase -            552   2.7e-08   30.8   0.5   2   2      0.61   2.9e+02   -2.3   0.0   395   409   276   290   208   292 0.54 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_006466801.1       -            327 FMN_dependent_monooxygenase -            552   3.5e-07   27.2   0.9   1   2   3.6e-05     0.017   11.6   0.0    74   164    15   102    10   103 0.86 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_006466801.1       -            327 FMN_dependent_monooxygenase -            552   3.5e-07   27.2   0.9   2   2   3.3e-05     0.016   11.8   0.2   330   423   201   305   167   314 0.58 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_006469876.1       -            333 FMN_dependent_monooxygenase -            552   9.9e-07   25.7   2.0   1   2   7.4e-06    0.0036   13.9   0.0    79   164    21   103    10   105 0.78 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_006469876.1       -            333 FMN_dependent_monooxygenase -            552   9.9e-07   25.7   2.0   2   2   4.6e-05     0.022   11.3   0.5   308   390   217   308   155   320 0.67 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+WP_006470994.1       -            340 FMN_dependent_monooxygenase -            552   0.00043   17.0   0.1   1   1   1.7e-06   0.00081   16.0   0.1    77   164    23   105     3   109 0.73 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Brucella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

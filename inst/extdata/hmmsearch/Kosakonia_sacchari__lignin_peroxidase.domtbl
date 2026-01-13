@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_020455558.1       -            257 lignin_peroxidase    -            483   3.7e-07   27.5   0.0   1   1   5.8e-10   4.4e-07   27.2   0.0    52   275    35   246     6   250 0.87 MULTISPECIES: pimeloyl-ACP methyl ester esterase BioH [Enterobacteriaceae]
+WP_016496077.1       -            273 lignin_peroxidase    -            483   1.6e-06   25.4   0.0   1   1     4e-09   3.1e-06   24.5   0.0    57   275    48   263    32   271 0.77 MULTISPECIES: alpha/beta fold hydrolase [Enterobacteriaceae]
+WP_045509066.1       -            257 lignin_peroxidase    -            483   7.6e-06   23.1   0.4   1   2   2.5e-08   1.9e-05   21.8   0.2    59   138    45   121    31   172 0.78 MULTISPECIES: esterase [Kosakonia]
+WP_045509066.1       -            257 lignin_peroxidase    -            483   7.6e-06   23.1   0.4   2   2       0.3   2.3e+02   -1.5   0.0   239   282   209   252   191   253 0.74 MULTISPECIES: esterase [Kosakonia]
+WP_160270521.1       -            263 lignin_peroxidase    -            483   0.00053   17.1   0.0   1   1   8.2e-07   0.00063   16.8   0.0    42   133    27   124    17   178 0.82 alpha/beta fold hydrolase [Kosakonia sacchari]
+WP_045508741.1       -            297 lignin_peroxidase    -            483     0.012   12.6   0.0   1   1   2.8e-05     0.022   11.7   0.0   212   270   224   281    45   295 0.63 MULTISPECIES: proline iminopeptidase-family hydrolase [Kosakonia]
+WP_160269801.1       -            294 lignin_peroxidase    -            483     0.012   12.5   0.0   1   1   2.8e-05     0.022   11.8   0.0    57   109    75   128    70   148 0.85 alpha/beta fold hydrolase [Kosakonia sacchari]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

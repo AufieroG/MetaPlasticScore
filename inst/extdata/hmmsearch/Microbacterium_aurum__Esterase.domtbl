@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_076690822.1       -            409 Esterase             -            359     8e-05   19.8   0.0   1   1   1.6e-07   9.9e-05   19.5   0.0    83   178   168   275   116   377 0.79 alpha/beta hydrolase family protein [Microbacterium aurum]
+WP_076688923.1       -            280 Esterase             -            359    0.0023   15.0   0.2   1   2    0.0071       4.5    4.1   0.0   110   171    52   114    17   135 0.66 alpha/beta fold hydrolase [Microbacterium aurum]
+WP_076688923.1       -            280 Esterase             -            359    0.0023   15.0   0.2   2   2   0.00022      0.14    9.1   0.1   169   243   191   260   180   270 0.75 alpha/beta fold hydrolase [Microbacterium aurum]
+WP_076690382.1       -            230 Esterase             -            359    0.0058   13.6   0.2   1   1   1.2e-05    0.0073   13.3   0.2   109   215    49   187    35   223 0.73 alpha/beta fold hydrolase [Microbacterium aurum]
+WP_076691695.1       -            219 Esterase             -            359     0.015   12.3   0.0   1   1   2.6e-05     0.017   12.2   0.0   148   220   102   174     5   205 0.59 alpha/beta hydrolase [Microbacterium aurum]
+WP_076690201.1       -            251 Esterase             -            359     0.034   11.1   1.9   1   2   0.00012     0.075   10.0   0.3    82   168    14   102     3   121 0.82 alpha/beta fold hydrolase [Microbacterium aurum]
+WP_076690201.1       -            251 Esterase             -            359     0.034   11.1   1.9   2   2     0.076        48    0.7   0.1   168   210   164   216   132   245 0.77 alpha/beta fold hydrolase [Microbacterium aurum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_006470305.1       -            256 lignin_peroxidase    -            483   4.8e-11   40.2   0.0   1   2   3.8e-13   2.7e-10   37.7   0.0     6   128     7   126     3   134 0.86 MULTISPECIES: alpha/beta fold hydrolase [Brucella]
+WP_006470305.1       -            256 lignin_peroxidase    -            483   4.8e-11   40.2   0.0   2   2      0.12        90   -0.3   0.0   229   270   192   240   158   243 0.73 MULTISPECIES: alpha/beta fold hydrolase [Brucella]
+WP_006468169.1       -            280 lignin_peroxidase    -            483   3.3e-09   34.1   0.0   1   2   6.5e-10   4.7e-07   27.1   0.0     6   171    40   195    34   203 0.86 MULTISPECIES: alpha/beta fold hydrolase [Brucella]
+WP_006468169.1       -            280 lignin_peroxidase    -            483   3.3e-09   34.1   0.0   2   2    0.0026       1.9    5.3   0.0   222   287   205   270   195   279 0.83 MULTISPECIES: alpha/beta fold hydrolase [Brucella]
+WP_006471313.1       -            263 lignin_peroxidase    -            483   3.4e-08   30.8   0.0   1   1     3e-10   2.1e-07   28.2   0.0    51   282    43   259     2   261 0.80 MULTISPECIES: 3-oxoadipate enol-lactonase [Brucella]
+WP_006469807.1       -            319 lignin_peroxidase    -            483   7.2e-07   26.5   0.0   1   1   1.4e-09     1e-06   26.0   0.0    50   273    86   308    82   318 0.78 MULTISPECIES: alpha/beta fold hydrolase [Brucella]
+WP_006466059.1       -            316 lignin_peroxidase    -            483   8.2e-05   19.7   0.0   1   1   1.2e-07   8.5e-05   19.6   0.0    58   177    64   180    52   297 0.78 MULTISPECIES: prolyl aminopeptidase [Brucella]
+WP_006470726.1       -            348 lignin_peroxidase    -            483     0.024   11.5   0.0   1   1   4.1e-05     0.029   11.2   0.0    58   132   104   180    90   250 0.78 MULTISPECIES: alpha/beta fold hydrolase [Brucella]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

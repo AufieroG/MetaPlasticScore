@@ -1,0 +1,9 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_006259807.1       -            208 fatty_acid_desaturase -            419     0.038   10.4   1.3   1   1   2.8e-05     0.048   10.0   1.3    17   125    41   162     7   166 0.71 MULTISPECIES: hypothetical protein [Myroides]
+WP_006259045.1       -            200 fatty_acid_desaturase -            419      0.04   10.3   6.3   1   1   1.6e-05     0.028   10.8   4.8    30   124    71   170    50   174 0.71 MULTISPECIES: hypothetical protein [Myroides]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,11 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_160269817.1       -            727 manganese_peroxidase -            377   8.1e-21   72.3   1.0   1   4   8.6e-09     4e-05   20.7   0.0    72   165   101   194    96   201 0.82 catalase/peroxidase HPI [Kosakonia sacchari]
+WP_160269817.1       -            727 manganese_peroxidase -            377   8.1e-21   72.3   1.0   2   4   4.4e-11     2e-07   28.3   0.0   170   296   237   413   227   421 0.78 catalase/peroxidase HPI [Kosakonia sacchari]
+WP_160269817.1       -            727 manganese_peroxidase -            377   8.1e-21   72.3   1.0   3   4     4e-07    0.0018   15.2   0.4    66   163   463   564   450   569 0.73 catalase/peroxidase HPI [Kosakonia sacchari]
+WP_160269817.1       -            727 manganese_peroxidase -            377   8.1e-21   72.3   1.0   4   4    0.0022        10    2.9   0.0   178   295   596   718   587   723 0.66 catalase/peroxidase HPI [Kosakonia sacchari]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

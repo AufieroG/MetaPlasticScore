@@ -1,0 +1,11 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_006258741.1       -            260 lignin_peroxidase    -            483     7e-06   22.9   0.0   1   1   9.4e-09   8.1e-06   22.7   0.0    57   133    57   146    49   225 0.79 MULTISPECIES: alpha/beta fold hydrolase [Myroides]
+WP_006260118.1       -            317 lignin_peroxidase    -            483   0.00051   16.7   0.0   1   1   7.8e-07   0.00067   16.3   0.0    59   131    94   164    81   210 0.92 MULTISPECIES: alpha/beta fold hydrolase [Myroides]
+WP_006256878.1       -            311 lignin_peroxidase    -            483    0.0044   13.6   0.0   1   1   7.1e-06    0.0061   13.2   0.0    59   131    90   160    84   180 0.88 alpha/beta fold hydrolase [Myroides odoratimimus]
+WP_006259874.1       -            260 lignin_peroxidase    -            483    0.0071   12.9   0.0   1   1     1e-05     0.009   12.6   0.0    47   131    38   120    23   169 0.86 MULTISPECIES: alpha/beta fold hydrolase [Myroides]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

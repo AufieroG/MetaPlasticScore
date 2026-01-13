@@ -1,0 +1,28 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_006258889.1       -            730 PETase               -            291   7.9e-12   43.3   0.1   1   1   7.8e-14   1.4e-11   42.5   0.1    49   249   476   724   437   727 0.72 MULTISPECIES: S9 family peptidase [Myroides]
+WP_006259783.1       -            633 PETase               -            291   5.8e-11   40.4   0.1   1   1   5.7e-13   9.9e-11   39.7   0.1    60   251   387   631   334   633 0.81 MULTISPECIES: S9 family peptidase [Myroides]
+WP_006258859.1       -            280 PETase               -            291   1.3e-10   39.3   0.0   1   1   9.7e-13   1.7e-10   38.9   0.0    77   209    33   230    27   271 0.68 MULTISPECIES: alpha/beta hydrolase family protein [Myroides]
+WP_006258183.1       -            226 PETase               -            291   2.9e-10   38.1   0.0   1   1   2.2e-12   3.8e-10   37.7   0.0   124   233    94   203    83   222 0.81 carboxylesterase family protein [Myroides odoratimimus]
+WP_006256858.1       -            839 PETase               -            291   1.6e-07   29.1   0.0   1   1   1.7e-09   2.9e-07   28.3   0.0    56   256   573   826   553   834 0.76 alpha/beta hydrolase family protein [Myroides odoratimimus]
+WP_006257523.1       -            721 PETase               -            291   2.4e-07   28.6   0.1   1   1   2.4e-09   4.1e-07   27.8   0.1    95   218   525   684   509   717 0.72 MULTISPECIES: S9 family peptidase [Myroides]
+WP_006258754.1       -            288 PETase               -            291   2.6e-07   28.4   0.0   1   1   2.2e-09   3.8e-07   27.9   0.0    80   234    88   272    58   285 0.81 MULTISPECIES: alpha/beta hydrolase [Myroides]
+WP_006256741.1       -            982 PETase               -            291   4.2e-07   27.8   0.0   1   1   4.1e-09     7e-07   27.0   0.0    99   240   755   936   685   954 0.84 MULTISPECIES: S9 family peptidase [Myroides]
+WP_006259693.1       -            255 PETase               -            291   1.4e-06   26.0   0.0   1   1   1.2e-08   2.2e-06   25.4   0.0   140   249    78   249    18   255 0.83 MULTISPECIES: alpha/beta fold hydrolase [Myroides]
+WP_006257071.1       -            303 PETase               -            291   2.5e-06   25.2   0.0   1   1   2.4e-08   4.2e-06   24.5   0.0   141   239   120   277    13   287 0.73 MULTISPECIES: alpha/beta hydrolase [Myroides]
+WP_006258422.1       -            419 PETase               -            291     5e-06   24.2   0.8   1   2   3.6e-05    0.0063   14.0   0.9    42   181    52   221     1   316 0.63 alpha/beta hydrolase family protein [Myroides odoratimimus]
+WP_006258422.1       -            419 PETase               -            291     5e-06   24.2   0.8   2   2    0.0026      0.44    8.0   0.0   184   248   349   415   327   418 0.75 alpha/beta hydrolase family protein [Myroides odoratimimus]
+WP_006256920.1       -            343 PETase               -            291   5.1e-06   24.2   0.0   1   1   1.1e-07   1.9e-05   22.3   0.0    78   249    72   340    36   342 0.70 alpha/beta hydrolase family protein [Myroides odoratimimus]
+WP_006256812.1       -            833 PETase               -            291   1.4e-05   22.7   0.0   1   1   1.4e-07   2.4e-05   22.0   0.0   125   238   671   813   648   832 0.73 alpha/beta hydrolase family protein [Myroides odoratimimus]
+WP_006258080.1       -            850 PETase               -            291   1.5e-05   22.7   0.0   1   1   1.8e-07   3.2e-05   21.6   0.0   130   257   653   831   635   841 0.79 alpha/beta hydrolase family protein [Myroides odoratimimus]
+WP_006259064.1       -            217 PETase               -            291   2.5e-05   21.9   0.0   1   1   1.8e-07   3.1e-05   21.6   0.0    73   182    18   145    10   195 0.80 MULTISPECIES: alpha/beta hydrolase [Myroides]
+WP_006257331.1       -            256 PETase               -            291   6.2e-05   20.6   0.0   1   1   6.5e-07   0.00011   19.8   0.0    79   168    16   102     3   136 0.83 MULTISPECIES: alpha/beta fold hydrolase [Myroides]
+WP_006256739.1       -            734 PETase               -            291   0.00032   18.3   0.0   1   1   2.7e-06   0.00047   17.8   0.0   129   249   571   729   489   734 0.76 MULTISPECIES: alpha/beta hydrolase family protein [Myroides]
+WP_006258583.1       -            345 PETase               -            291     0.001   16.7   0.0   1   1   1.4e-05    0.0025   15.4   0.0    91   226    79   285    27   319 0.65 alpha/beta hydrolase family protein [Myroides odoratimimus]
+WP_006259874.1       -            260 PETase               -            291    0.0014   16.1   0.0   1   1   1.3e-05    0.0022   15.5   0.0   137   203    79   149    61   174 0.69 MULTISPECIES: alpha/beta fold hydrolase [Myroides]
+WP_006258741.1       -            260 PETase               -            291    0.0017   15.9   0.0   1   1   1.2e-05    0.0021   15.6   0.0   130   207    81   217    62   260 0.74 MULTISPECIES: alpha/beta fold hydrolase [Myroides]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

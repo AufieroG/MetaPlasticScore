@@ -1,0 +1,11 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_067163468.1       -            766 versatile_peroxidase -            407   1.1e-11   41.9   0.0   1   3   3.3e-07   0.00052   16.5   0.0    66   201   122   297    94   315 0.79 catalase/peroxidase HPI [Microbacterium sp. TNHR37B]
+WP_067163468.1       -            766 versatile_peroxidase -            407   1.1e-11   41.9   0.0   2   3   0.00039      0.63    6.4   0.0   219   286   349   440   342   441 0.81 catalase/peroxidase HPI [Microbacterium sp. TNHR37B]
+WP_067163468.1       -            766 versatile_peroxidase -            407   1.1e-11   41.9   0.0   3   3   5.8e-06    0.0093   12.4   0.0    88   163   514   600   498   717 0.74 catalase/peroxidase HPI [Microbacterium sp. TNHR37B]
+WP_067159282.1       -            535 versatile_peroxidase -            407   0.00085   15.8   0.0   1   1   1.1e-06    0.0018   14.7   0.0   347   394   479   525   408   531 0.84 AMP-binding protein [Microbacterium sp. TNHR37B]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

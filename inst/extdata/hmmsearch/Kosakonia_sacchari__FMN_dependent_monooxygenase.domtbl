@@ -1,0 +1,14 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_017456211.1       -            381 FMN_dependent_monooxygenase -            552   3.8e-41  139.4   9.8   1   1     2e-42   1.9e-39  133.8   9.8    56   444     3   349     1   351 0.83 MULTISPECIES: FMNH2-dependent alkanesulfonate monooxygenase [Kosakonia]
+WP_160270248.1       -            329 FMN_dependent_monooxygenase -            552   5.9e-10   36.4   0.3   1   1   1.2e-12   1.1e-09   35.4   0.3    82   163    23   102    12   105 0.88 putative FMN-dependent luciferase-like monooxygenase [Kosakonia sacchari]
+WP_160270211.1       -            338 FMN_dependent_monooxygenase -            552   3.9e-07   27.1   4.6   1   2   0.00012      0.11    9.0   0.0    79   164    21   103    10   105 0.84 MsnO8 family LLM class oxidoreductase [Kosakonia sacchari]
+WP_160270211.1       -            338 FMN_dependent_monooxygenase -            552   3.9e-07   27.1   4.6   2   2   4.4e-06     0.004   13.8   2.8   260   431   172   313   155   319 0.69 MsnO8 family LLM class oxidoreductase [Kosakonia sacchari]
+WP_045510566.1       -            341 FMN_dependent_monooxygenase -            552   0.00095   15.9   0.1   1   1   1.7e-06    0.0016   15.2   0.1    77   164    23   105     3   108 0.73 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Kosakonia]
+WP_160268557.1       -            335 FMN_dependent_monooxygenase -            552    0.0057   13.3   0.1   1   2   1.2e-05     0.011   12.3   0.1    77   164    22   106    14   107 0.84 MULTISPECIES: luciferase-like monooxygenase [Kosakonia]
+WP_160268557.1       -            335 FMN_dependent_monooxygenase -            552    0.0057   13.3   0.1   2   2         1   9.3e+02   -3.9   0.0   396   423   282   309   269   316 0.75 MULTISPECIES: luciferase-like monooxygenase [Kosakonia]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

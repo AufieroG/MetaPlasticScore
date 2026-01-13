@@ -1,0 +1,11 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_160271169.1       -            546 laccase              -            716   1.5e-12   44.7   0.8   1   3   1.8e-10   4.1e-07   26.7   0.0   112   343    70   287    60   297 0.74 multicopper oxidase CueO [Kosakonia sacchari]
+WP_160271169.1       -            546 laccase              -            716   1.5e-12   44.7   0.8   2   3   0.00067       1.5    5.0   0.1   541   554   473   486   463   490 0.85 multicopper oxidase CueO [Kosakonia sacchari]
+WP_160271169.1       -            546 laccase              -            716   1.5e-12   44.7   0.8   3   3   0.00022       0.5    6.6   0.0   582   629   496   546   493   546 0.82 multicopper oxidase CueO [Kosakonia sacchari]
+WP_020455269.1       -            470 laccase              -            716     0.019   11.3   0.0   1   1   3.3e-05     0.076    9.3   0.0    97   343    56   285    51   293 0.68 MULTISPECIES: cell division protein FtsP [Enterobacteriaceae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,8 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_006257840.1       -             71 alkane_1_monooxygenase -            406     0.034   10.6   0.1   1   1     1e-05     0.035   10.5   0.1    94   138     7    59     1    65 0.79 MULTISPECIES: AtpZ/AtpI family protein [Myroides]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -181,14 +181,25 @@ In the example datasets:
 ## ▶️ Running the PlasticScore pipeline
 
 ```r
-df <- run_PlasticScore(
-  hmmsearch_files = "path/hmmsearch/",
-  abundance_csv = "path/Abbundance_simulated_low_variance.csv",
-  metadata_groups_csv = "path/Metadata_groups.csv",
-  metadata_taxa_csv = "path/Metadata_taxa.csv",
+# locate example data loaded with the package
+extdata_path <- system.file("extdata", package = "PlasticScore")
+expect_true(dir.exists(extdata_path))
+
+hmm_dir <- file.path(extdata_path, "hmmsearch")
+abundance_csv <- file.path(extdata_path, "Abbundance_simulated.csv")
+metadata_groups_csv <- file.path(extdata_path, "Metadata_groups.csv")
+metadata_taxa_csv <- file.path(extdata_path, "Metadata_taxa.csv")
+
+
+# run the pipeline on example data
+result <- run_PlasticScore(
+  hmmsearch_files = hmm_dir,
+  abundance_csv = abundance_csv,
+  metadata_groups_csv = metadata_groups_csv,
+  metadata_taxa_csv = metadata_taxa_csv,
   min_hmm_coverage = 0.7,
   max_dom_bias = 0.1,
-  enzymes_for_plastic = c("All"),
+  enzymes_for_plastic = "All",
   method = "abundance",
   normalize_abundance = FALSE
 )

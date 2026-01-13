@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_057092295.1       -            641 laccase              -            716   5.3e-38  128.7   2.2   1   2   1.2e-38   2.5e-35  119.9   0.1   103   345    73   338    63   352 0.79 MULTISPECIES: copper resistance system multicopper oxidase [Comamonas]
+WP_057092295.1       -            641 laccase              -            716   5.3e-38  128.7   2.2   2   2   0.00014      0.29    7.3   0.3   127   205   562   640   554   641 0.68 MULTISPECIES: copper resistance system multicopper oxidase [Comamonas]
+WP_066479271.1       -            460 laccase              -            716   1.6e-24   84.2   7.6   1   3   1.4e-24   2.9e-21   73.4   1.3   103   206    86   188    82   199 0.86 multicopper oxidase family protein [Comamonas terrae]
+WP_066479271.1       -            460 laccase              -            716   1.6e-24   84.2   7.6   2   3   2.4e-05     0.052    9.8   0.2   538   555   260   277   253   279 0.85 multicopper oxidase family protein [Comamonas terrae]
+WP_066479271.1       -            460 laccase              -            716   1.6e-24   84.2   7.6   3   3    0.0024       5.1    3.2   0.0   598   620   302   324   291   338 0.82 multicopper oxidase family protein [Comamonas terrae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/laccase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Comamonas_terrae.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Comamonas_terrae__laccase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Comamonas_terrae__laccase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/laccase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Comamonas_terrae.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:38 2026
+# [ok]

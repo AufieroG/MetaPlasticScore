@@ -1,0 +1,15 @@
+#                                                                              --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name             accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----   -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_070558339.1       -            203 alkane_1_monooxygenase -            406     0.016   12.0   0.2   1   2     8e-06     0.034   10.9   0.0    70   151    16    95    13   114 0.76 MULTISPECIES: DUF3267 domain-containing protein [Enterococcus]
+WP_070558339.1       -            203 alkane_1_monooxygenase -            406     0.016   12.0   0.2   2   2      0.04   1.7e+02   -1.3   0.0    31    53   128   150    96   184 0.50 MULTISPECIES: DUF3267 domain-containing protein [Enterococcus]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/alkane_1_monooxygenase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterococcus_avium.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterococcus_avium__alkane_1_monooxygenase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterococcus_avium__alkane_1_monooxygenase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/alkane_1_monooxygenase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterococcus_avium.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:54 2026
+# [ok]

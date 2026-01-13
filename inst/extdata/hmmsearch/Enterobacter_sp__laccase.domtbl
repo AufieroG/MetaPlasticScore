@@ -1,0 +1,19 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_000925240.1       -            605 laccase              -            716   6.4e-43  145.1   0.2   1   2   1.8e-40   2.7e-37  126.5   0.0    97   346    54   326    48   337 0.82 MULTISPECIES: multicopper oxidase PcoA [Enterobacterales]
+WP_000925240.1       -            605 laccase              -            716   6.4e-43  145.1   0.2   2   2   4.1e-07   0.00062   16.2   0.0   584   624   558   598   552   605 0.91 MULTISPECIES: multicopper oxidase PcoA [Enterobacterales]
+WP_006810081.1       -            519 laccase              -            716   7.3e-11   39.1   1.5   1   2   6.7e-10     1e-06   25.4   0.0   112   341    70   285    65   293 0.72 MULTISPECIES: multicopper oxidase CueO [Enterobacter cloacae complex]
+WP_006810081.1       -            519 laccase              -            716   7.3e-11   39.1   1.5   2   2   0.00062      0.94    5.7   0.3   541   555   446   460   436   519 0.81 MULTISPECIES: multicopper oxidase CueO [Enterobacter cloacae complex]
+WP_420890496.1       -            228 laccase              -            716   9.1e-05   19.0   0.2   1   2      0.24   3.7e+02   -2.9   0.0   539   547   159   167   147   169 0.79 multicopper oxidase domain-containing protein [Enterobacter hormaechei]
+WP_420890496.1       -            228 laccase              -            716   9.1e-05   19.0   0.2   2   2     1e-07   0.00016   18.2   0.0   584   624   181   221   175   228 0.91 multicopper oxidase domain-containing protein [Enterobacter hormaechei]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/laccase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterobacter_sp.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterobacter_sp__laccase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterobacter_sp__laccase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/laccase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterobacter_sp.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:50 2026
+# [ok]

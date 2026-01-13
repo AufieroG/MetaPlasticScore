@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_049219489.1       -            390 Cutinase             -            267    0.0014   16.8   0.1   1   1   1.7e-06    0.0037   15.4   0.1   126   201   155   234   139   263 0.68 DUF3089 domain-containing protein [Enterococcus avium]
+WP_016179332.1       -            308 Cutinase             -            267     0.028   12.5   0.0   1   1     2e-05     0.043   11.9   0.0   128   175   143   187   139   262 0.77 MULTISPECIES: alpha/beta hydrolase [Enterococcus]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Cutinase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterococcus_avium.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterococcus_avium__Cutinase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterococcus_avium__Cutinase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Cutinase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterococcus_avium.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:53 2026
+# [ok]

@@ -1,0 +1,14 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_230134643.1       -           1285 Cutinase             -            267     0.038   12.3   0.0   1   1   1.5e-05     0.071   11.4   0.0   130   193  1112  1176  1105  1262 0.76 enterobactin non-ribosomal peptide synthetase EntF [Enterobacter cloacae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Cutinase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterobacter_cloacae.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterobacter_cloacae__Cutinase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Enterobacter_cloacae__Cutinase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Cutinase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Enterobacter_cloacae.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:46 2026
+# [ok]

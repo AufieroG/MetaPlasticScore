@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_125349746.1       -            740 manganese_peroxidase -            377   1.2e-15   54.8   0.4   1   3     1e-08   3.1e-05   20.5   0.0    72   165    98   191    92   194 0.86 catalase/peroxidase HPI [Empedobacter falsenii]
+WP_125349746.1       -            740 manganese_peroxidase -            377   1.2e-15   54.8   0.4   2   3   1.3e-06    0.0038   13.6   0.0   169   296   240   416   231   420 0.74 catalase/peroxidase HPI [Empedobacter falsenii]
+WP_125349746.1       -            740 manganese_peroxidase -            377   1.2e-15   54.8   0.4   3   3   9.7e-07     0.003   14.0   0.7    70   163   471   576   452   733 0.79 catalase/peroxidase HPI [Empedobacter falsenii]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/manganese_peroxidase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Empedobacter_falsenii.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Empedobacter_falsenii__manganese_peroxidase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Empedobacter_falsenii__manganese_peroxidase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/manganese_peroxidase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Empedobacter_falsenii.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:45 2026
+# [ok]

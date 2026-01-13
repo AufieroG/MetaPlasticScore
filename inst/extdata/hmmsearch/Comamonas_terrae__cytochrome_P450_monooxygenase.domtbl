@@ -1,0 +1,10 @@
+#                                                                                     --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                    accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----          -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_066475508.1       -            783 cytochrome_P450_monooxygenase -            552   1.8e-09   34.7   0.2   1   3      0.04   1.7e+02   -1.5   0.0   142   183   117   163   104   172 0.82 cytochrome P450/oxidoreductase [Comamonas terrae]
+WP_066475508.1       -            783 cytochrome_P450_monooxygenase -            552   1.8e-09   34.7   0.2   2   3   2.4e-05       0.1    9.1   0.1   330   367   264   301   228   307 0.85 cytochrome P450/oxidoreductase [Comamonas terrae]
+WP_066475508.1       -            783 cytochrome_P450_monooxygenase -            552   1.8e-09   34.7   0.2   3   3   2.1e-09   9.1e-06   22.5   0.0   399   510   312   408   303   426 0.88 cytochrome P450/oxidoreductase [Comamonas terrae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

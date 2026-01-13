@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_073017661.1       -            468 Cutinase             -            267     0.054   11.7   0.0   1   2     0.012        54    1.9   0.0    95   115   220   244   199   250 0.75 alpha/beta hydrolase family protein [Clostridium intestinale]
+WP_073017661.1       -            468 Cutinase             -            267     0.054   11.7   0.0   2   2   0.00022         1    7.5   0.0   131   163   295   337   274   369 0.78 alpha/beta hydrolase family protein [Clostridium intestinale]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

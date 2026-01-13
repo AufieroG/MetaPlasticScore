@@ -1,0 +1,11 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_002976788.1       -            760 manganese_peroxidase -            377   2.1e-14   51.3   0.0   1   4   3.8e-07    0.0019   15.3   0.0    72   165    98   191    91   194 0.85 catalase/peroxidase HPI [Chryseobacterium gleum]
+WP_002976788.1       -            760 manganese_peroxidase -            377   2.1e-14   51.3   0.0   2   4   1.8e-08     9e-05   19.7   0.0   169   296   260   436   250   441 0.81 catalase/peroxidase HPI [Chryseobacterium gleum]
+WP_002976788.1       -            760 manganese_peroxidase -            377   2.1e-14   51.3   0.0   3   4   6.1e-06     0.031   11.3   0.0    87   164   508   598   477   604 0.60 catalase/peroxidase HPI [Chryseobacterium gleum]
+WP_002976788.1       -            760 manganese_peroxidase -            377   2.1e-14   51.3   0.0   4   4     0.087   4.4e+02   -2.3   0.0   216   294   665   750   638   754 0.52 catalase/peroxidase HPI [Chryseobacterium gleum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

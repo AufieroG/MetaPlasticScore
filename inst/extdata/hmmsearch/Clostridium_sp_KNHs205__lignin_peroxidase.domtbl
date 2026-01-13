@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_051685097.1       -            344 lignin_peroxidase    -            483   5.6e-05   20.5   0.0   1   1   7.8e-08   8.1e-05   19.9   0.0    45   131    87   172    62   213 0.84 alpha/beta hydrolase [Clostridium sp. KNHs205]
+WP_033164883.1       -            269 lignin_peroxidase    -            483   0.00015   19.0   0.0   1   1   1.7e-07   0.00017   18.9   0.0    57   274    51   260    39   269 0.77 alpha/beta hydrolase [Clostridium sp. KNHs205]
+WP_033165725.1       -            218 lignin_peroxidase    -            483    0.0027   14.9   0.0   1   2   0.00027      0.28    8.3   0.0    45   129    33   114    29   129 0.86 alpha/beta hydrolase [Clostridium sp. KNHs205]
+WP_033165725.1       -            218 lignin_peroxidase    -            483    0.0027   14.9   0.0   2   2    0.0029         3    4.9   0.0   221   272   157   207   143   216 0.87 alpha/beta hydrolase [Clostridium sp. KNHs205]
+WP_033168492.1       -            322 lignin_peroxidase    -            483     0.021   12.0   0.0   1   1   2.7e-05     0.028   11.6   0.0    42   130    78   165    59   179 0.87 alpha/beta hydrolase [Clostridium sp. KNHs205]
+WP_033165472.1       -           2981 lignin_peroxidase    -            483     0.033   11.3   0.0   1   1   6.6e-05     0.069   10.3   0.0    53   282  2767  2978  2754  2979 0.72 SDR family NAD(P)-dependent oxidoreductase [Clostridium sp. KNHs205]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

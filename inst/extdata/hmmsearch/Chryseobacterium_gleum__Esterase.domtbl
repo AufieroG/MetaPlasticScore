@@ -1,0 +1,26 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_002977960.1       -            235 Esterase             -            359   2.5e-06   25.4   0.0   1   1   9.5e-09   2.5e-06   25.4   0.0   133   216   105   189    36   223 0.79 prolyl oligopeptidase family serine peptidase [Chryseobacterium gleum]
+WP_002981050.1       -            212 Esterase             -            359   6.9e-05   20.6   0.0   1   1   2.9e-07   7.9e-05   20.5   0.0    84   227    17   198     3   209 0.70 alpha/beta hydrolase [Chryseobacterium gleum]
+WP_002980657.1       -            330 Esterase             -            359   0.00019   19.2   0.0   1   1   9.1e-07   0.00024   18.9   0.0    72   174    51   157     9   197 0.78 alpha/beta fold hydrolase [Chryseobacterium gleum]
+WP_002980211.1       -            315 Esterase             -            359   0.00043   18.0   1.0   1   1   4.5e-06    0.0012   16.6   0.9   112   180    95   223    70   309 0.60 alpha/beta fold hydrolase [Chryseobacterium gleum]
+WP_002981016.1       -            256 Esterase             -            359   0.00055   17.7   0.0   1   1   2.6e-06   0.00069   17.4   0.0   130   187    83   134    57   240 0.82 alpha/beta fold hydrolase [Chryseobacterium gleum]
+WP_002977727.1       -            322 Esterase             -            359   0.00066   17.4   0.0   1   1   4.1e-06    0.0011   16.7   0.0    90   216    70   255    43   287 0.71 alpha/beta hydrolase family protein [Chryseobacterium gleum]
+WP_002980975.1       -            351 Esterase             -            359   0.00079   17.2   0.1   1   1   4.1e-06    0.0011   16.7   0.1    19   180     9   186     3   246 0.70 alpha/beta hydrolase [Chryseobacterium gleum]
+WP_002984335.1       -            280 Esterase             -            359   0.00087   17.0   0.0   1   1   4.1e-06    0.0011   16.7   0.0    68   179    18   145     3   232 0.65 alpha/beta hydrolase family protein [Chryseobacterium gleum]
+WP_002983299.1       -            272 Esterase             -            359    0.0053   14.5   0.0   1   1   2.6e-05     0.007   14.0   0.0    78   169    46   146    18   172 0.80 alpha/beta hydrolase [Chryseobacterium gleum]
+WP_002980067.1       -            275 Esterase             -            359    0.0055   14.4   0.0   1   1   2.4e-05    0.0063   14.2   0.0    71   208    28   218     5   263 0.68 alpha/beta fold hydrolase [Chryseobacterium gleum]
+WP_002980371.1       -            330 Esterase             -            359     0.011   13.4   0.0   1   1   5.3e-05     0.014   13.0   0.0   130   177   129   180   112   252 0.83 acyl-CoA thioester hydrolase/BAAT C-terminal domain-containing protein [Chryseobacterium gleum]
+WP_002978582.1       -            359 Esterase             -            359     0.012   13.3   0.0   1   1   5.5e-05     0.015   13.0   0.0    72   171    74   175    37   332 0.68 MULTISPECIES: alpha/beta hydrolase [Chryseobacterium]
+WP_002976263.1       -            260 Esterase             -            359     0.016   12.9   0.0   1   1   6.8e-05     0.018   12.7   0.0   146   180    73   104    13   190 0.65 alpha/beta fold hydrolase [Chryseobacterium gleum]
+WP_002979856.1       -            256 Esterase             -            359      0.03   12.0   0.0   1   1   0.00013     0.035   11.7   0.0    73   174    51   173    15   235 0.74 alpha/beta hydrolase family protein [Chryseobacterium gleum]
+WP_002981274.1       -            309 Esterase             -            359     0.039   11.6   0.0   1   1   0.00019     0.052   11.2   0.0    74   179    20   140    12   295 0.81 alpha/beta fold hydrolase [Chryseobacterium gleum]
+WP_002981887.1       -            253 Esterase             -            359     0.043   11.4   0.0   1   1   0.00026      0.07   10.7   0.0    89   176    24   110     8   235 0.71 MULTISPECIES: alpha/beta fold hydrolase [Chryseobacterium]
+WP_002980994.1       -            308 Esterase             -            359     0.046   11.3   0.0   1   1   0.00021     0.056   11.1   0.0    99   180    46   139    25   228 0.74 alpha/beta hydrolase [Chryseobacterium gleum]
+WP_002978566.1       -            319 Esterase             -            359     0.057   11.0   0.0   1   1    0.0003      0.08   10.6   0.0    82   178    33   143     5   192 0.77 MULTISPECIES: alpha/beta fold hydrolase [Chryseobacterium]
+WP_002981780.1       -            269 Esterase             -            359     0.059   11.0   0.0   1   1   0.00025     0.067   10.8   0.0   130   217   129   232    56   261 0.70 alpha/beta hydrolase [Chryseobacterium gleum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

@@ -1,0 +1,11 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_024294480.1       -            280 lignin_peroxidase    -            483   6.3e-08   30.3   0.0   1   1   4.9e-11   9.2e-08   29.8   0.0    41   261    38   257     7   266 0.74 alpha/beta fold hydrolase [Lacrimispora indolis]
+WP_024295339.1       -            233 lignin_peroxidase    -            483   3.4e-07   27.9   0.0   1   2   3.6e-07   0.00068   17.0   0.0     7   137     2   119     1   126 0.82 alpha/beta fold hydrolase [Lacrimispora indolis]
+WP_024295339.1       -            233 lignin_peroxidase    -            483   3.4e-07   27.9   0.0   2   2   8.6e-05      0.16    9.2   0.0   219   273   155   208   131   218 0.85 alpha/beta fold hydrolase [Lacrimispora indolis]
+WP_024292689.1       -            272 lignin_peroxidase    -            483   6.6e-06   23.7   0.0   1   1   4.3e-09   8.1e-06   23.4   0.0    57   274    51   260    38   271 0.79 alpha/beta fold hydrolase [Lacrimispora indolis]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

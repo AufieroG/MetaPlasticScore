@@ -1,0 +1,15 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_073022327.1       -            980 Esterase             -            359   3.7e-08   31.3   0.0   1   2   1.2e-06   0.00079   17.0   0.0   106   216   210   332   139   427 0.70 prolyl oligopeptidase family serine peptidase [Clostridium intestinale]
+WP_073022327.1       -            980 Esterase             -            359   3.7e-08   31.3   0.0   2   2     4e-05     0.026   12.0   0.0   119   217   578   712   520   759 0.73 prolyl oligopeptidase family serine peptidase [Clostridium intestinale]
+WP_073021695.1       -            314 Esterase             -            359   3.9e-06   24.6   0.0   1   1   8.2e-09   5.3e-06   24.1   0.0    51   229    57   298    20   311 0.75 alpha/beta hydrolase [Clostridium intestinale]
+WP_073021819.1       -            312 Esterase             -            359    0.0012   16.4   0.0   1   1   2.1e-06    0.0014   16.2   0.0    83   179    29   138     5   224 0.83 alpha/beta fold hydrolase [Clostridium intestinale]
+WP_073017661.1       -            468 Esterase             -            359     0.006   14.1   0.0   1   1   1.2e-05    0.0077   13.8   0.0   105   182   251   348   189   400 0.65 alpha/beta hydrolase family protein [Clostridium intestinale]
+WP_073019959.1       -            337 Esterase             -            359    0.0076   13.8   0.0   1   1   1.3e-05    0.0086   13.6   0.0   100   191    79   180    63   275 0.86 alpha/beta hydrolase family protein [Clostridium intestinale]
+WP_073022026.1       -            270 Esterase             -            359     0.012   13.2   0.0   1   1   5.8e-05     0.038   11.5   0.0   144   216    83   229    22   263 0.59 alpha/beta fold hydrolase [Clostridium intestinale]
+WP_073022118.1       -            124 Esterase             -            359      0.03   11.8   0.0   1   1     5e-05     0.033   11.7   0.0    82   151    30   110     6   121 0.77 GntR family transcriptional regulator [Clostridium intestinale]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

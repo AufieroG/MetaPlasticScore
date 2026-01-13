@@ -1,0 +1,20 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_033166275.1       -            247 Esterase             -            359    0.0038   15.0   0.0   1   1   5.4e-06     0.004   14.9   0.0    96   199    34   128    31   222 0.82 alpha/beta hydrolase [Clostridium sp. KNHs205]
+WP_051685558.1       -            253 Esterase             -            359    0.0054   14.5   0.0   1   1   8.6e-06    0.0063   14.2   0.0   137   184    80   117    38   213 0.74 alpha/beta hydrolase [Clostridium sp. KNHs205]
+WP_081848601.1       -            332 Esterase             -            359    0.0065   14.2   0.0   1   1   1.4e-05      0.01   13.6   0.0   135   214    88   166    47   265 0.79 alpha/beta hydrolase [Clostridium sp. KNHs205]
+WP_033165899.1       -            744 Esterase             -            359    0.0079   13.9   0.0   1   1   1.5e-05     0.011   13.4   0.0    70   174   264   386   205   452 0.81 alpha/beta hydrolase [Clostridium sp. KNHs205]
+WP_242860642.1       -            293 Esterase             -            359     0.018   12.7   0.0   1   1   2.7e-05      0.02   12.6   0.0    77   178    83   192    12   230 0.76 prolyl oligopeptidase family serine peptidase [Clostridium sp. KNHs205]
+WP_033165734.1       -            531 Esterase             -            359     0.027   12.2   0.0   1   1   5.6e-05     0.041   11.5   0.0   130   229   340   451   241   468 0.69 hypothetical protein [Clostridium sp. KNHs205]
+WP_033168152.1       -            309 Esterase             -            359     0.054   11.2   0.1   1   1   0.00019      0.14    9.8   0.1    86   174    32   132    19   162 0.74 alpha/beta hydrolase [Clostridium sp. KNHs205]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Esterase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Clostridium_sp_KNHs205.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Clostridium_sp_KNHs205__Esterase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Clostridium_sp_KNHs205__Esterase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Esterase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Clostridium_sp_KNHs205.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:30 2026
+# [ok]

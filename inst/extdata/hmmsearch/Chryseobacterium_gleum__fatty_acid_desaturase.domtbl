@@ -1,0 +1,22 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_002977743.1       -            462 fatty_acid_desaturase -            419     0.001   16.1   1.6   1   4   7.9e-07     0.001   16.1   1.6    80   155   162   238   156   244 0.88 MFS transporter [Chryseobacterium gleum]
+WP_002977743.1       -            462 fatty_acid_desaturase -            419     0.001   16.1   1.6   2   4      0.17   2.1e+02   -1.4   0.1   234   260   293   319   281   322 0.83 MFS transporter [Chryseobacterium gleum]
+WP_002977743.1       -            462 fatty_acid_desaturase -            419     0.001   16.1   1.6   3   4      0.13   1.6e+02   -1.0   0.7    18    47   332   365   320   387 0.61 MFS transporter [Chryseobacterium gleum]
+WP_002977743.1       -            462 fatty_acid_desaturase -            419     0.001   16.1   1.6   4   4     0.086   1.1e+02   -0.5   0.3   229   270   356   392   345   398 0.77 MFS transporter [Chryseobacterium gleum]
+WP_002983384.1       -            363 fatty_acid_desaturase -            419    0.0025   14.8   1.2   1   3     2e-06    0.0025   14.8   1.2    61   168    19   127    12   130 0.81 fatty acid desaturase family protein [Chryseobacterium gleum]
+WP_002983384.1       -            363 fatty_acid_desaturase -            419    0.0025   14.8   1.2   2   3     0.037        47    0.8   0.9    16    51   208   254   189   280 0.57 fatty acid desaturase family protein [Chryseobacterium gleum]
+WP_002983384.1       -            363 fatty_acid_desaturase -            419    0.0025   14.8   1.2   3   3     0.069        88   -0.1   0.3   291   320   287   316   285   324 0.85 fatty acid desaturase family protein [Chryseobacterium gleum]
+WP_002980235.1       -             56 fatty_acid_desaturase -            419     0.048   10.6   2.7   1   1   3.9e-05     0.049   10.6   2.7    17    62     2    54     1    56 0.80 lmo0937 family membrane protein [Chryseobacterium gleum]
+WP_002983873.1       -            484 fatty_acid_desaturase -            419     0.087    9.8   1.7   1   1   0.00011      0.13    9.1   1.7    22   105   108   194    96   227 0.66 cytochrome c oxidase accessory protein CcoG [Chryseobacterium gleum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/fatty_acid_desaturase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Chryseobacterium_gleum.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Chryseobacterium_gleum__fatty_acid_desaturase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Chryseobacterium_gleum__fatty_acid_desaturase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/fatty_acid_desaturase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Chryseobacterium_gleum.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:24 2026
+# [ok]

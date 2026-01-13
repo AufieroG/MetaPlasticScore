@@ -1,0 +1,16 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_085019829.1       -            105 fatty_acid_desaturase -            419    0.0013   15.5   0.5   1   1   1.1e-06    0.0015   15.3   0.5    28    69    40    89    24    98 0.66 hypothetical protein [Cnuibacter physcomitrellae]
+WP_085019479.1       -            112 fatty_acid_desaturase -            419    0.0057   13.3   0.1   1   1   4.2e-06    0.0057   13.3   0.1     5    63     5    72     1    93 0.67 DUF3099 domain-containing protein [Cnuibacter physcomitrellae]
+WP_085019959.1       -            283 fatty_acid_desaturase -            419     0.013   12.2   1.1   1   1     2e-05     0.027   11.1   0.1     9   106   110   222   105   264 0.68 ABC transporter permease [Cnuibacter physcomitrellae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/fatty_acid_desaturase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Cnuibacter_physcomitrellae.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Cnuibacter_physcomitrellae__fatty_acid_desaturase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Cnuibacter_physcomitrellae__fatty_acid_desaturase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/fatty_acid_desaturase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Cnuibacter_physcomitrellae.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:35 2026
+# [ok]

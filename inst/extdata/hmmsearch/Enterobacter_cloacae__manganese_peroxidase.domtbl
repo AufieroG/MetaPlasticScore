@@ -1,0 +1,11 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_230137095.1       -            726 manganese_peroxidase -            377     6e-19   66.2   0.9   1   4   8.4e-08   0.00039   17.5   0.0    71   165   100   194    90   199 0.84 catalase/peroxidase HPI [Enterobacter cloacae]
+WP_230137095.1       -            726 manganese_peroxidase -            377     6e-19   66.2   0.9   2   4   9.7e-11   4.5e-07   27.1   0.0   170   296   237   412   227   420 0.79 catalase/peroxidase HPI [Enterobacter cloacae]
+WP_230137095.1       -            726 manganese_peroxidase -            377     6e-19   66.2   0.9   3   4   8.8e-08   0.00041   17.4   0.1    67   164   463   564   441   574 0.81 catalase/peroxidase HPI [Enterobacter cloacae]
+WP_230137095.1       -            726 manganese_peroxidase -            377     6e-19   66.2   0.9   4   4     0.053   2.5e+02   -1.6   0.0   180   262   597   688   587   718 0.57 catalase/peroxidase HPI [Enterobacter cloacae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

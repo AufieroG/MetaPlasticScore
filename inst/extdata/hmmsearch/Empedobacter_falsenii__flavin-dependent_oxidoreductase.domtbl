@@ -1,0 +1,8 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_125350202.1       -            343 flavin-dependent_oxidoreductase -            474   1.4e-06   24.6   0.0   1   1   8.6e-10   2.6e-06   23.7   0.0    84   132    57   106    27   107 0.87 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Empedobacter]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

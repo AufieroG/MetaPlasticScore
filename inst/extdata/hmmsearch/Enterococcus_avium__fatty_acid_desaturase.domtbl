@@ -1,0 +1,10 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_070558339.1       -            203 fatty_acid_desaturase -            419     0.014   12.1   0.2   1   2     1e-05     0.022   11.5   0.0    53   137    16    95    12   113 0.89 MULTISPECIES: DUF3267 domain-containing protein [Enterococcus]
+WP_070558339.1       -            203 fatty_acid_desaturase -            419     0.014   12.1   0.2   2   2      0.24   5.1e+02   -2.9   0.1    77   120   131   173   122   186 0.55 MULTISPECIES: DUF3267 domain-containing protein [Enterococcus]
+WP_144324879.1       -            218 fatty_acid_desaturase -            419     0.018   11.7   1.0   1   1   1.4e-05     0.029   11.1   1.0    39   125    22   114     3   122 0.74 hypothetical protein [Enterococcus avium]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

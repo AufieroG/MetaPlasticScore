@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_026626918.1       -            218 lignin_peroxidase    -            483   9.8e-05   19.1   0.0   1   2   4.8e-07    0.0016   15.0   0.0    43   131    31   116    28   129 0.91 MULTISPECIES: alpha/beta fold hydrolase [Dysgonomonas]
+WP_026626918.1       -            218 lignin_peroxidase    -            483   9.8e-05   19.1   0.0   2   2    0.0043        15    2.0   0.0   211   283   147   218   135   218 0.86 MULTISPECIES: alpha/beta fold hydrolase [Dysgonomonas]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

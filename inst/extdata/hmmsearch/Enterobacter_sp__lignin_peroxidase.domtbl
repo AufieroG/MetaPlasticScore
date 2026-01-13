@@ -1,0 +1,13 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_006812245.1       -            260 lignin_peroxidase    -            483     5e-07   27.0   0.0   1   1   7.9e-10   7.2e-07   26.5   0.0    49   280    32   251     4   257 0.83 MULTISPECIES: pimeloyl-ACP methyl ester esterase BioH [Enterobacter cloacae complex]
+WP_006810282.1       -            273 lignin_peroxidase    -            483   3.6e-06   24.2   0.0   1   1   8.4e-09   7.7e-06   23.1   0.0    58   274    49   262    34   271 0.61 alpha/beta fold hydrolase [Enterobacter hormaechei]
+WP_006809603.1       -            257 lignin_peroxidase    -            483   4.4e-06   23.9   0.8   1   2   2.9e-08   2.6e-05   21.4   0.3    59   135    45   118    32   175 0.75 MULTISPECIES: esterase [Enterobacter]
+WP_006809603.1       -            257 lignin_peroxidase    -            483   4.4e-06   23.9   0.8   2   2     0.046        42    0.9   0.0   228   283   198   253   189   256 0.79 MULTISPECIES: esterase [Enterobacter]
+WP_032673831.1       -            331 lignin_peroxidase    -            483     3e-05   21.2   0.0   1   1   4.4e-08     4e-05   20.8   0.0    56   132    85   163    69   213 0.83 alpha/beta fold hydrolase [Enterobacter hormaechei]
+WP_006808806.1       -            334 lignin_peroxidase    -            483    0.0005   17.1   0.0   1   1     2e-06    0.0018   15.3   0.0    54   275    91   324    81   333 0.76 MULTISPECIES: alpha/beta fold hydrolase [Enterobacter cloacae complex]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

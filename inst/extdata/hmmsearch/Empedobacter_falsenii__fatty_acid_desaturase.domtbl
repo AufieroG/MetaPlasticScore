@@ -1,0 +1,9 @@
+#                                                                             --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name            accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----  -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_038331764.1       -            251 fatty_acid_desaturase -            419   1.7e-05   21.2   1.7   1   1   2.1e-08   3.1e-05   20.4   1.7   164   267    65   175    44   181 0.74 MULTISPECIES: acyl-CoA desaturase [Empedobacter]
+WP_125349889.1       -            493 fatty_acid_desaturase -            419     0.026   10.7   1.1   1   1     3e-05     0.046    9.9   1.1    26   125   115   220   101   227 0.70 MULTISPECIES: cytochrome c oxidase accessory protein CcoG [Empedobacter]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

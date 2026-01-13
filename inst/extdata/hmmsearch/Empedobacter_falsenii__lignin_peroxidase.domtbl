@@ -1,0 +1,18 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_125349189.1       -            541 lignin_peroxidase    -            483   1.7e-08   31.3   0.0   1   2   1.9e-10   8.4e-08   29.0   0.0     7   132   318   435   315   487 0.79 alpha/beta fold hydrolase [Empedobacter falsenii]
+WP_125349189.1       -            541 lignin_peroxidase    -            483   1.7e-08   31.3   0.0   2   2     0.097        42    0.3   0.0   214   282   472   539   462   540 0.81 alpha/beta fold hydrolase [Empedobacter falsenii]
+WP_125350639.1       -            280 lignin_peroxidase    -            483   4.3e-08   30.0   0.0   1   1   1.3e-10   5.5e-08   29.6   0.0    57   266    49   256    39   274 0.79 MULTISPECIES: alpha/beta fold hydrolase [Empedobacter]
+WP_125348754.1       -            256 lignin_peroxidase    -            483   4.5e-06   23.3   0.0   1   2   1.8e-06   0.00079   15.9   0.0    57   134    54   145    48   179 0.80 alpha/beta fold hydrolase [Empedobacter falsenii]
+WP_125348754.1       -            256 lignin_peroxidase    -            483   4.5e-06   23.3   0.0   2   2    0.0024         1    5.6   0.0   214   268   184   239   179   254 0.77 alpha/beta fold hydrolase [Empedobacter falsenii]
+WP_125349965.1       -            248 lignin_peroxidase    -            483   0.00021   17.8   0.0   1   1   5.7e-07   0.00025   17.6   0.0    54   131    34   109     9   138 0.88 alpha/beta fold hydrolase [Empedobacter falsenii]
+WP_038335162.1       -            237 lignin_peroxidase    -            483    0.0041   13.5   0.0   1   2      0.13        56   -0.1   0.0    96   145    67   119    56   140 0.76 MULTISPECIES: alpha/beta fold hydrolase [Empedobacter]
+WP_038335162.1       -            237 lignin_peroxidase    -            483    0.0041   13.5   0.0   2   2   5.3e-05     0.023   11.1   0.0   199   282   149   235   140   236 0.83 MULTISPECIES: alpha/beta fold hydrolase [Empedobacter]
+WP_260392031.1       -            317 lignin_peroxidase    -            483     0.022   11.1   0.0   1   2   9.1e-05     0.039   10.3   0.0    44   131    55   142    25   173 0.86 MULTISPECIES: alpha/beta hydrolase [Empedobacter]
+WP_260392031.1       -            317 lignin_peroxidase    -            483     0.022   11.1   0.0   2   2       1.6   6.8e+02   -3.7   0.0   223   270   252   299   248   305 0.85 MULTISPECIES: alpha/beta hydrolase [Empedobacter]
+WP_125350501.1       -            258 lignin_peroxidase    -            483     0.029   10.7   0.0   1   1   8.8e-05     0.038   10.4   0.0    53   131    37   112     7   151 0.77 MULTISPECIES: alpha/beta fold hydrolase [Empedobacter]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

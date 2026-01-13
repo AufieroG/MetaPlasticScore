@@ -1,0 +1,12 @@
+#                                                                                   --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                  accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----        -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_006809314.1       -            363 FMN_dependent_monooxygenase -            552   1.1e-45  154.4   1.7   1   1   1.2e-45   1.4e-42  144.0   1.7    54   447     1   352     1   357 0.84 MULTISPECIES: pyrimidine utilization protein A [Enterobacter cloacae complex]
+WP_006809359.1       -            381 FMN_dependent_monooxygenase -            552   3.3e-40  136.2   6.5   1   1   2.1e-41   2.3e-38  130.1   6.5    57   444     4   349     1   351 0.84 MULTISPECIES: FMNH2-dependent alkanesulfonate monooxygenase [Enterobacter cloacae complex]
+WP_006808894.1       -            344 FMN_dependent_monooxygenase -            552   0.00012   18.9   0.1   1   1   1.8e-07   0.00021   18.1   0.1    68   164    12   105     3   109 0.76 MULTISPECIES: LLM class flavin-dependent oxidoreductase [Enterobacter]
+WP_006812112.1       -            335 FMN_dependent_monooxygenase -            552    0.0048   13.6   0.3   1   2     1e-05     0.012   12.3   0.1    76   164    21   106    14   107 0.85 MULTISPECIES: luciferase-like monooxygenase [Enterobacter]
+WP_006812112.1       -            335 FMN_dependent_monooxygenase -            552    0.0048   13.6   0.3   2   2       0.2   2.3e+02   -1.9   0.0   395   423   281   309   217   319 0.70 MULTISPECIES: luciferase-like monooxygenase [Enterobacter]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

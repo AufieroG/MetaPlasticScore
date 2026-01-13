@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_049219489.1       -            390 Cutinase             -            267    0.0014   16.8   0.1   1   1   1.7e-06    0.0037   15.4   0.1   126   201   155   234   139   263 0.68 DUF3089 domain-containing protein [Enterococcus avium]
+WP_016179332.1       -            308 Cutinase             -            267     0.028   12.5   0.0   1   1     2e-05     0.043   11.9   0.0   128   175   143   187   139   262 0.77 MULTISPECIES: alpha/beta hydrolase [Enterococcus]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

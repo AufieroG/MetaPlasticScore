@@ -1,0 +1,13 @@
+#                                                                                       --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name                      accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- -----            -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_038984421.1       -            363 flavin-dependent_oxidoreductase -            474   1.4e-39  134.0   1.1   1   3   2.9e-25   4.6e-22   76.3   0.1    28   175    12   156     2   161 0.87 pyrimidine utilization protein A [Enterobacter cloacae]
+WP_038984421.1       -            363 flavin-dependent_oxidoreductase -            474   1.4e-39  134.0   1.1   2   3   6.6e-15     1e-11   42.2   0.0   200   318   160   276   156   281 0.78 pyrimidine utilization protein A [Enterobacter cloacae]
+WP_038984421.1       -            363 flavin-dependent_oxidoreductase -            474   1.4e-39  134.0   1.1   3   3   1.9e-06     0.003   14.2   0.0   351   422   281   353   269   360 0.86 pyrimidine utilization protein A [Enterobacter cloacae]
+WP_058651224.1       -            381 flavin-dependent_oxidoreductase -            474   6.5e-30  102.2   0.6   1   2   2.5e-18   3.8e-15   53.5   0.1    84   175    55   144     1   147 0.81 MULTISPECIES: FMNH2-dependent alkanesulfonate monooxygenase [Enterobacter]
+WP_058651224.1       -            381 flavin-dependent_oxidoreductase -            474   6.5e-30  102.2   0.6   2   2   9.4e-16   1.5e-12   44.9   0.1   199   332   147   278   143   351 0.76 MULTISPECIES: FMNH2-dependent alkanesulfonate monooxygenase [Enterobacter]
+WP_230135273.1       -            341 flavin-dependent_oxidoreductase -            474    0.0036   14.0   0.0   1   1   3.6e-06    0.0055   13.4   0.0    82   132    54   105     9   110 0.78 LLM class flavin-dependent oxidoreductase [Enterobacter cloacae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

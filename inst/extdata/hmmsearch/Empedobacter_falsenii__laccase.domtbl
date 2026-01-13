@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_125350609.1       -            749 laccase              -            716   1.1e-46  156.9   4.0   1   2   6.7e-42     2e-38  129.6   0.8    95   554    29   497    23   501 0.74 multicopper oxidase domain-containing protein [Empedobacter falsenii]
+WP_125350609.1       -            749 laccase              -            716   1.1e-46  156.9   4.0   2   2   2.8e-11   8.4e-08   28.4   0.1   578   634   498   554   496   580 0.88 multicopper oxidase domain-containing protein [Empedobacter falsenii]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

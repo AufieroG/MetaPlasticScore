@@ -1,0 +1,9 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_007893757.1       -            300 dyp_type_peroxidase  -            467   3.2e-92  307.7   0.7   1   1   1.8e-95   3.6e-92  307.6   0.7   100   379     1   296     1   300 0.89 Dyp-type peroxidase [Cronobacter sakazakii]
+WP_007898009.1       -            427 dyp_type_peroxidase  -            467   2.3e-68  229.1   1.7   1   1   1.4e-71   2.9e-68  228.7   1.7   105   379    59   415     6   426 0.77 iron uptake transporter deferrochelatase/peroxidase subunit [Cronobacter sakazakii]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

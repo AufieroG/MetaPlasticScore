@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_020688164.1       -            276 lignin_peroxidase    -            483   9.4e-06   22.9   0.0   1   1   1.8e-08   1.2e-05   22.5   0.0    55   243    48   234    38   274 0.81 MULTISPECIES: alpha/beta fold hydrolase [Enterobacter]
+WP_230134715.1       -            257 lignin_peroxidase    -            483   1.2e-05   22.5   0.3   1   2     1e-07   6.7e-05   20.1   0.2    60   134    46   117    32   166 0.86 esterase [Enterobacter cloacae]
+WP_230134715.1       -            257 lignin_peroxidase    -            483   1.2e-05   22.5   0.3   2   2       0.1        67    0.3   0.0   232   283   202   253   190   256 0.78 esterase [Enterobacter cloacae]
+WP_230135619.1       -            331 lignin_peroxidase    -            483   1.8e-05   21.9   0.0   1   2      0.24   1.6e+02   -1.0   0.0   342   357    25    40    14    51 0.88 alpha/beta fold hydrolase [Enterobacter cloacae]
+WP_230135619.1       -            331 lignin_peroxidase    -            483   1.8e-05   21.9   0.0   2   2   8.6e-08   5.7e-05   20.3   0.0    56   132    85   163    59   215 0.83 alpha/beta fold hydrolase [Enterobacter cloacae]
+WP_230136956.1       -            260 lignin_peroxidase    -            483     4e-05   20.8   0.0   1   1   8.7e-08   5.8e-05   20.3   0.0    50   276    33   247     3   252 0.83 pimeloyl-ACP methyl ester esterase BioH [Enterobacter cloacae]
+WP_014830493.1       -            273 lignin_peroxidase    -            483   4.9e-05   20.5   0.0   1   1   1.8e-07   0.00012   19.2   0.0   208   274   195   262    35   271 0.69 MULTISPECIES: alpha/beta fold hydrolase [Enterobacter]
+WP_057071838.1       -            256 lignin_peroxidase    -            483   0.00053   17.1   0.4   1   1     1e-06   0.00068   16.7   0.4    57   156    35   132    22   184 0.76 MULTISPECIES: alpha/beta fold hydrolase [Enterobacter]
+WP_230134082.1       -            334 lignin_peroxidase    -            483    0.0023   15.0   0.0   1   1     1e-05    0.0068   13.4   0.0    54   275    91   324    81   333 0.77 alpha/beta fold hydrolase [Enterobacter cloacae]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH

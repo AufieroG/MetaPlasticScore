@@ -108,7 +108,7 @@ The following CSV files are also required and must be mutually consistent.
 
 #### Abundance table
 
-- File example: `Abbundance.csv`
+- File example: `Normalized_abundance.csv`
 - **First column:** `Taxa` (taxon identifier)  
 - **Remaining columns:** sample IDs (`STD_rep1`, `STD_rep2`, `PE_rep1`, …)  
 - **Values:** normalized or absolute abundances (numeric)

@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_165368875.1       -            297 Cutinase             -            267   1.6e-05   21.8   4.6   1   1   5.6e-08   4.4e-05   20.3   4.6    97   242   137   276     8   296 0.62 cutinase family protein [Bifidobacterium pseudolongum]
+WP_232506736.1       -            497 Cutinase             -            267   0.00017   18.4   0.4   1   2      0.15   1.2e+02   -0.8   0.1   111   180    73   144    61   188 0.69 alpha/beta hydrolase [Bifidobacterium pseudolongum]
+WP_232506736.1       -            497 Cutinase             -            267   0.00017   18.4   0.4   2   2   2.1e-07   0.00017   18.4   0.4   140   232   337   430   260   448 0.78 alpha/beta hydrolase [Bifidobacterium pseudolongum]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Cutinase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Bifidobacterium_pseudolongum.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Bifidobacterium_pseudolongum__Cutinase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Bifidobacterium_pseudolongum__Cutinase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Cutinase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Bifidobacterium_pseudolongum.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:15 2026
+# [ok]

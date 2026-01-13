@@ -1,0 +1,16 @@
+#                                                                            --- full sequence --- -------------- this domain -------------   hmm coord   ali coord   env coord
+# target name        accession   tlen query name           accession   qlen   E-value  score  bias   #  of  c-Evalue  i-Evalue  score  bias  from    to  from    to  from    to  acc description of target
+#------------------- ---------- ----- -------------------- ---------- ----- --------- ------ ----- --- --- --------- --------- ------ ----- ----- ----- ----- ----- ----- ----- ---- ---------------------
+WP_020226460.1       -            300 Cutinase             -            267   0.00027   19.3   0.0   1   1   2.6e-07    0.0004   18.7   0.0   104   191   135   218   107   230 0.82 triacylglycerol lipase [Acidovorax sp. MR-S7]
+WP_020227180.1       -            208 Cutinase             -            267    0.0029   15.9   0.0   1   1   2.3e-06    0.0036   15.6   0.0   120   215    79   182    28   187 0.74 alpha/beta hydrolase [Acidovorax sp. MR-S7]
+WP_024000848.1       -            287 Cutinase             -            267     0.027   12.7   0.0   1   1   2.3e-05     0.036   12.3   0.0   122   176   129   183     8   219 0.86 alpha/beta hydrolase [Acidovorax sp. MR-S7]
+#
+# Program:         hmmsearch
+# Version:         3.3.2 (Nov 2020)
+# Pipeline mode:   SEARCH
+# Query file:      /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Cutinase.hmm
+# Target file:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Acidovorax_spMR-S7.fa
+# Option settings: hmmsearch --tblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Acidovorax_spMR-S7__Cutinase.tbl --domtblout /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/hmmsearch_results/Acidovorax_spMR-S7__Cutinase.domtbl -E 1e-1 --incE 1e-1 --cpu 1 /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/Cutinase.hmm /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article/../Acidovorax_spMR-S7.fa 
+# Current dir:     /mnt/k/Metagenomics/Dati_De_filippis/proteome/hmmsearch_enzyme_article
+# Date:            Tue Jan  6 19:39:10 2026
+# [ok]

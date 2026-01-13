@@ -1,9 +1,12 @@
-# MetaPlasticScore<img width="500" height="500" alt="MetaPlasticScore" src="https://github.com/user-attachments/assets/72d4ad6f-06e6-4520-ad79-e8c8c813c19f" />
-
+# MetaPlasticScore
 
 **PlasticScore** is an R-based computational pipeline designed to assess and quantify the plastic-degrading potential of microbial taxa. By integrating HMMER `hmmsearch` outputs with normalized taxon abundance data and metadata, PlasticScore calculates degradation scores, analyzes enzyme loads, and visualizes contributions across taxonomic levels.
 
 ⚠️ **Development status:** MetaPlasticScore R package is currently **under development**. Default parameters, and outputs may change in future releases.
+
+
+<img width="300" height="300" alt="MetaPlasticScore_icon" src="https://github.com/user-attachments/assets/06d13c72-2641-43c2-b811-70de2f0a3454" />
+
 
 ---
 

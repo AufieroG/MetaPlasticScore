@@ -63,7 +63,7 @@ default_plot_config <- function() {
     
     pcoa_label = TRUE,             # Draw sample labels using ggrepel
     pcoa_point_size = 3,           # Size of points in ordination plot
-    pcoa_transform = "none",       # "none" | "log" | "hellinger"
+    pcoa_transform = "none",       # "none" | "log"
     pcoa_distance  = "bray",       # "bray" | "euclidean"
     
     # ============================================================

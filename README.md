@@ -3,7 +3,7 @@
 <p align="center">
 
 # MetaPlasticScore
-**PlasticScore** is an R-based computational pipeline designed to assess and quantify the plastic-degrading potential of microbial taxa. By integrating HMMER `hmmsearch` outputs with normalized taxon abundance data and metadata, PlasticScore calculates degradation scores, analyzes enzyme loads, and visualizes contributions across taxonomic levels.
+**MetaPlasticScore** is an R-based computational pipeline designed to assess and quantify the plastic-degrading potential of microbial taxa. By integrating HMMER `hmmsearch` outputs with normalized taxon abundance data and metadata, MetaPlasticScore calculates degradation scores, analyzes enzyme loads, and visualizes contributions across taxonomic levels.
 
 **Development status:** MetaPlasticScore R package is currently under development. Default parameters, and outputs may change in future releases.
 
@@ -11,7 +11,7 @@
 
 ## 📦 Prerequisites & Dependencies
 
-PlasticScore runs in **R**. Before using the pipeline, ensure you have the required packages installed.
+MetaPlasticScore runs in **R**. Before using the pipeline, ensure you have the required packages installed.
 
 ### Install CRAN and Bioconductor packages
 
@@ -44,7 +44,7 @@ library("MetaPlasticScore")
 
 ### 1. HMMER search outputs
 
-PlasticScore requires output files from `hmmsearch` (HMMER suite) generated using enzyme-specific HMM profiles.
+MetaPlasticScore requires output files from `hmmsearch` (HMMER suite) generated using enzyme-specific HMM profiles.
 
 - **Directory:** Place all HMMER output files in a single directory (e.g. `hmmsearch/`).  
 - **File formats:** `.tbl` (table) or `.domtbl` (domain table) files are required.  
@@ -65,7 +65,7 @@ or
 The package includes **pre-generated HMM models** for plastic-degrading enzymes, located in:
 
 ```
-PlasticScore/inst/extdata/HMMmodel/
+MetaPlasticScore/inst/extdata/HMMmodel/
 ```
 
 These HMM profiles were built from protein sequences identified using:
@@ -168,7 +168,7 @@ Actinobacteria,Cellulosimicrobium_sp
 The package includes **example input datasets** located in:
 
 ```
-PlasticScore/inst/extdata/
+MetaPlasticScore/inst/extdata/
 ```
 
 These example files are provided **for demonstration and testing purposes only**.
@@ -181,7 +181,7 @@ The data were simulated based on the work reported in: [https://doi.org/10.1186/
 
 ---
 
-## ▶️ Running the PlasticScore pipeline
+## ▶️ Running the MetaPlasticScore pipeline
 ### Example command to run the pipeline
 ```r
 # locate example data loaded with the package
@@ -215,7 +215,7 @@ result <- run_MetaPlasticScore(
 # Filtered HMMER hits retained after coverage and domain-bias filtering
 hits_filt <- result$hits_filt
 
-# PlasticScore computed for each sample
+# Plastic score computed for each sample
 plastic_score <- result$plastic_score
 
 # Enzyme load per taxon (number or abundance-weighted count of plastic-degrading enzymes)
@@ -239,7 +239,7 @@ metadata_taxa <- result$metadata_taxa
 # Enzyme abundance aggregated at the sample level
 enzyme_by_sample <- result$enzyme_by_sample
 
-# Contribution of each phylum to the PlasticScore or enzyme load
+# Contribution of each phylum to the plastic score or enzyme load
 contrib_phylum_mat <- result$contrib_phylum_mat
 
 # Phylum × enzyme matrix (enzyme profiles aggregated by phylum)

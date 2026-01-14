@@ -72,4 +72,5 @@ default_plot_config <- function() {
     normalize_contrib = TRUE      # Show contributions as percentages per sample
     
   )
+
 }

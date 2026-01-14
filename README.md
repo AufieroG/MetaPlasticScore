@@ -95,7 +95,6 @@ for hmm in path/to/HMMmodel/*.hmm; do
     hmmsearch \
       --cpu 1 \
       --domtblout output_dir/${taxon}__${enzyme_id}.domtbl \
-      --tblout    output_dir/${taxon}__${enzyme_id}.tbl \
       -E 1e-5 \
       --incE 1e-3 \
       "$hmm" \

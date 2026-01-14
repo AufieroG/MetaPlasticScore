@@ -175,8 +175,9 @@ PlasticScore/inst/extdata/
 These example files are provided **for demonstration and testing purposes only**.
 
 In the example datasets:
-- Samples labeled **PE** correspond to **larvae fed on polyethylene (PE)**.
-- Samples labeled **STD** correspond to **larvae fed on a standard diet**.
+- Samples labeled **PE** correspond to **Hermetia illucens larvae fed on polyethylene (PE)**.
+- Samples labeled **STD** correspond to **Hermetia illucens larvae fed on a standard diet**.
+The data were simulated based on the work reported in: [https://doi.org/10.1186/s40168-023-01649-0](https://doi.org/10.1186/s40168-023-01649-0)
 
 ---
 

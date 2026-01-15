@@ -19,8 +19,8 @@ result <- run_MetaPlasticScore(
   min_hmm_coverage = 0.7,
   max_dom_bias = 0.1,
   enzymes_for_plastic = "All",
-  method = "abundance",
-  normalize_abundance = FALSE
+  method_counting_enzyme = "abundance",
+  normalize_taxa_abundance = FALSE
 )
 
 # check output class

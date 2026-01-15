@@ -2,7 +2,7 @@
 % Please edit documentation in R/run_MetaPlasticScore.R
 \name{run_MetaPlasticScore}
 \alias{run_MetaPlasticScore}
-\title{Run MetaPlasticScore pipeline}
+\title{Run PlasticScore pipeline}
 \usage{
 run_MetaPlasticScore(
   hmmsearch_files,
@@ -14,8 +14,8 @@ run_MetaPlasticScore(
   min_hmm_coverage = 0.7,
   max_dom_bias = 0.1,
   enzymes_for_plastic = "All",
-  method = c("abundance", "binary"),
-  normalize_abundance = TRUE
+  method_counting_enzyme = c("abundance", "binary"),
+  normalize_taxa_abundance = FALSE
 )
 }
 \arguments{
@@ -37,12 +37,12 @@ run_MetaPlasticScore(
 
 \item{enzymes_for_plastic}{Character vector or "All". Subset of enzymes to use when scoring.}
 
-\item{method}{Character. '"abundance"' or '"binary"'.}
+\item{method_counting_enzyme}{Character. '"abundance"' or '"binary"'. Passed to 'compute_taxon_contributions' and 'compute_plastic_score'.}
 
-\item{normalize_abundance}{Logical. Passed to 'compute_taxon_contributions' (TSS if TRUE).}
+\item{normalize_taxa_abundance}{Logical. Passed to 'compute_taxon_contributions' and 'compute_plastic_score' (TSS if TRUE).}
 }
 \value{
-A list (class 'MetaPlasticScoreResult') containing:
+A list (class 'plasticScoreResult') containing:
 \itemize{
 \item 'hits_filt', 'taxon_enzyme_mat', 'plastic_score', 'plastic_score_test',
 'enzyme_load', 'taxon_stats', 'abundance', 'metadata_groups', 'metadata_taxa',
@@ -52,7 +52,7 @@ and plot-ready objects 'df_phylum_enzyme', 'phylum_enzyme_mat', 'enzyme_by_sampl
 }
 \description{
 Wrapper that executes the workflow:
-parse HMMER outputs, filter hits, build taxon× enzyme matrix, compute plastic
+parse HMMER outputs, filter hits, build taxon×enzyme matrix, compute plastic
 scores, compute taxon contributions, run per-taxon tests and prepare objects
 for plotting.
 }
@@ -69,7 +69,7 @@ proportions (TSS). Use 'FALSE' to preserve absolute abundances.
 }
 \examples{
 \dontrun{
-result <- run_MetaPlasticScore("hmmsearch", "abundance.csv", "metadata_samples.csv", "metadata_taxa.csv")
+res <- run_pipeline("hmmsearch", "abundance.csv", "metadata_samples.csv", "metadata_taxa.csv")
 }
 
 }

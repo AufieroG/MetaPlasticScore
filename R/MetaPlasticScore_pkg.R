@@ -19,6 +19,7 @@
 #' @import RColorBrewer
 #' @import magrittr
 #' @import dplyr
+#' @importFrom grDevices dev.off png
 #'
 #' @author
 #' Gaetano Aufiero

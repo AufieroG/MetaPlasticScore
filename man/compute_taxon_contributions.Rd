@@ -7,7 +7,9 @@
 compute_taxon_contributions(
   taxon_enzyme_matrix,
   abundance_df,
-  normalize_abundance = TRUE
+  enzymes_for_plastic = "All",
+  method_counting_enzyme = c("abundance", "binary"),
+  normalize_taxa_abundance = FALSE
 )
 }
 \arguments{
@@ -15,9 +17,18 @@ compute_taxon_contributions(
 
 \item{abundance_df}{Data.frame or matrix rows = taxa, cols = samples.}
 
-\item{normalize_abundance}{Logical. If 'TRUE' perform column-wise TSS such that
+\item{enzymes_for_plastic}{Character vector of enzyme IDs to include or 'All'.}
+
+\item{method_counting_enzyme}{Character, one of 'abundance' (default) or 'binary'.
+\itemize{
+\item 'abundance': use number of enzyme targets (load) as multiplier of abundance.
+\item 'binary': treat each taxon-enzyme presence as 0/1 when computing load.
+}}
+
+\item{normalize_taxa_abundance}{Logical (FALSE) to normalize abundance by simple division by the total count. Default (FALSE).
 each sample column sums to 1 (relative contributions). If 'FALSE' use
-abundances as provided (absolute contributions).}
+abundances as provided (absolute contributions).
+Skip normalization (set FALSE) when counts are already normalized.}
 }
 \value{
 A list with elements:
@@ -36,8 +47,9 @@ When 'normalize_abundance = TRUE', abundances are converted to proportions
 via 'A <- sweep(A, 2, colSums(A), "/")'. This corresponds to library-size
 normalization. Use 'TRUE' when you want comparisons of relative
 contributions across samples; use 'FALSE' to preserve absolute counts.
+Skip normalization (set FALSE) when counts are already normalized.
 }
 \examples{
-# contrib_res <- compute_taxon_contributions(taxon_enzyme_mat, abundance, TRUE)
+# contrib_res <- compute_taxon_contributions(taxon_enzyme_mat, abundance, method_counting_enzyme = "abundance", normalize_taxa_abundance = FALSE)
 
 }

@@ -11,10 +11,14 @@
 #' @param abundance_df Data.frame or matrix with rows = taxa, cols = samples.
 #'   Row names must be taxon IDs.
 #' @param enzymes_for_plastic Character vector of enzyme IDs to include or 'All'.
-#' @param method Character, one of 'abundance' (default) or 'binary'.
+#' @param method_counting_enzyme Character, one of 'abundance' (default) or 'binary'.
 #'   - 'abundance': use number of enzyme targets (load) as multiplier of abundance.
 #'   - 'binary': treat each taxon-enzyme presence as 0/1 when computing load.
-#'
+#' @param normalize_taxa_abundance Logical (FALSE) to normalize abundance by simple division by the total count. Default (FALSE).
+#'   each sample column sums to 1 (relative contributions). If 'FALSE' use
+#'   abundances as provided (absolute contributions).
+#'   Skip normalization (set FALSE) when counts are already normalized.
+#'  
 #' @return Named numeric vector of scores (names = sample IDs).
 #' @details
 #' Steps:
@@ -29,17 +33,18 @@
 #'   the score is relative. If abundances are absolute read counts, the score is
 #'   absolute and depends on library size.
 #' - Consider normalizing abundance consistently across samples if you intend to
-#'   compare scores between samples.
+#'   compare scores between samples. Skip normalization (set FALSE) when counts are already normalized.
 #'
 #' @examples
-#' # score <- compute_plastic_score(taxon_enzyme_mat, abundance, method = "abundance")
+#' # score <- ccompute_plastic_score(agg_mat, abundance, method_counting_enzyme = "abundance", normalize_taxa_abundance = FALSE)
 #'
 #' @export
 compute_plastic_score <- function(taxon_enzyme_matrix,
                                   abundance_df,
                                   enzymes_for_plastic = "All",
-                                  method = c("abundance", "binary")) {
-  method <- match.arg(method)
+                                  method_counting_enzyme = c("abundance", "binary"),
+                                  normalize_taxa_abundance = FALSE) {
+  method <- match.arg(method_counting_enzyme)
   
   # matrix conversion for arithmetic
   A <- as.matrix(abundance_df)
@@ -68,6 +73,13 @@ compute_plastic_score <- function(taxon_enzyme_matrix,
   
   # enzyme_load per taxon (numeric vector)
   enzyme_load <- rowSums(M)
+  
+  
+  # optionally normalize by sample library size (Total Sum Scaling)
+  if (normalize_taxa_abundance) {
+    A <- sweep(A, 2, colSums(as.matrix(abundance_df)), "/")
+  }
+  
   
   # multiply abundances by enzyme load and sum by column (sample)
   score <- colSums(A * enzyme_load)

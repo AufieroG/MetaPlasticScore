@@ -8,7 +8,8 @@ compute_plastic_score(
   taxon_enzyme_matrix,
   abundance_df,
   enzymes_for_plastic = "All",
-  method = c("abundance", "binary")
+  method_counting_enzyme = c("abundance", "binary"),
+  normalize_taxa_abundance = FALSE
 )
 }
 \arguments{
@@ -20,11 +21,16 @@ Row names must be taxon IDs.}
 
 \item{enzymes_for_plastic}{Character vector of enzyme IDs to include or 'All'.}
 
-\item{method}{Character, one of 'abundance' (default) or 'binary'.
+\item{method_counting_enzyme}{Character, one of 'abundance' (default) or 'binary'.
 \itemize{
 \item 'abundance': use number of enzyme targets (load) as multiplier of abundance.
 \item 'binary': treat each taxon-enzyme presence as 0/1 when computing load.
 }}
+
+\item{normalize_taxa_abundance}{Logical (FALSE) to normalize abundance by simple division by the total count. Default (FALSE).
+each sample column sums to 1 (relative contributions). If 'FALSE' use
+abundances as provided (absolute contributions).
+Skip normalization (set FALSE) when counts are already normalized.}
 }
 \value{
 Named numeric vector of scores (names = sample IDs).
@@ -49,10 +55,10 @@ Interpretation notes:
 the score is relative. If abundances are absolute read counts, the score is
 absolute and depends on library size.
 \item Consider normalizing abundance consistently across samples if you intend to
-compare scores between samples.
+compare scores between samples. Skip normalization (set FALSE) when counts are already normalized.
 }
 }
 \examples{
-# score <- compute_plastic_score(taxon_enzyme_mat, abundance, method = "abundance")
+# score <- ccompute_plastic_score(agg_mat, abundance, method_counting_enzyme = "abundance", normalize_taxa_abundance = FALSE)
 
 }

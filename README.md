@@ -114,7 +114,7 @@ The following CSV files are also required and must be mutually consistent.
 - - Required columns:
   - `Taxa` (taxon identifier)  
   - `sample IDs` (`STD_rep1`, `STD_rep2`, `PE_rep1`, …)  
-- Values: normalized or absolute abundances (numeric)
+- Values: consider the normalized abundance correctly (e.g., resulting from Metaphlan4 or other strategies that take genome sizes into account) (numeric)
 
 Example structure:
 
